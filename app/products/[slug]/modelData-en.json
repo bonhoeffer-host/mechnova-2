@@ -590,14 +590,14 @@
         "category": "agro-industrial",
         "description": "Gasoline engines for agricultural and industrial applications",
         "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
-        "error_image": "/mechnova/products/gasoline-engine/BE40A.webp",
+        "error_image": "/mechnova/products/gasoline-engine/ME30A.webp",
         "models": [
             {
                 "code": "ME30A",
                 "name": "GASOLINE ENGINE",
                 "id": "1",
                 "warranty": "6 Months",
-                "image": "/mechnova/products/gasoline-engine/BE40A.webp",
+                "image": "/mechnova/products/gasoline-engine/ME30A.webp",
                 "specifications": "Engine: 4.0 HP, 4-Stroke, 113cc\nTechnology: OHV, Overhead Valves\nCooling system: Air\nCylinder diameter: 60*40 mm\nMaximum power: 4 HP\nFuel tank capacity: 2.0 Liters\nOil reservoir capacity: 350 ml\nStarting system: Recoil"
             },
             {
@@ -605,7 +605,7 @@
                 "name": "GASOLINE ENGINE",
                 "id": "2",
                 "warranty": "6 Months",
-                "image": "/mechnova/products/gasoline-engine/BE70A.webp",
+                "image": "/mechnova/products/gasoline-engine/ME70A.webp",
                 "specifications": "Engine: 7.0 HP, 4-Stroke, 210cc\nTechnology: OHV, Overhead Valves\nCooling system: Air\nCylinder diameter: 70*54 mm\nMaximum power: 7 HP\nFuel tank capacity: 3.6 Liters\nOil reservoir capacity: 600 ml\nStarting system: Recoil"
             }
         ]
