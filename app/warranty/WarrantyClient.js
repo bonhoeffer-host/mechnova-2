@@ -34,7 +34,7 @@ function WarrantyPage() {
         {/* Paragraph Section */}
         <div className="container mx-auto px-4 max-w-4xl mb-12">
           <h1 className="text-center text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg mb-3">
-            {t("dealer.title")}
+            Warranty Registration & Dealer Support
           </h1>
           <p className="text-center text-xl text-gray-800 font-semibold mb-4">
             {t("dealer.tagline")}
@@ -52,82 +52,118 @@ function WarrantyPage() {
             </h2>
 
             <form
-              ref={formRef}
-              className="flex flex-col gap-5 w-full"
-              onSubmit={handleSubmit}
-            >
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-                <input
-                  type="text"
-                  name="company"
-                  placeholder={t("dealer.companyName")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder={t("dealer.email")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder={t("dealer.phoneNumber")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="text"
-                  name="address"
-                  placeholder={t("dealer.address")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="text"
-                  name="postal"
-                  placeholder={t("dealer.postalCode")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="text"
-                  name="city"
-                  placeholder={t("dealer.city")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="text"
-                  name="country"
-                  placeholder={t("dealer.country")}
-                  required
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-                <input
-                  type="text"
-                  name="brands"
-                  placeholder={t("dealer.currentBrands")}
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-                />
-              </div>
+  ref={formRef}
+  className="flex flex-col gap-6 w-full"
+  onSubmit={handleSubmit}
+>
+  {/* Customer Name */}
+  <div>
+    <label className="block text-gray-800 font-semibold mb-2">
+      Customer Name *
+    </label>
+    <input
+      type="text"
+      name="customerName"
+      placeholder="Enter your full name"
+      required
+      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+    />
+  </div>
 
-              <div className="flex items-start gap-2 mt-2">
-                <input type="checkbox" name="consent" required className="mt-1" />
-                <span className="text-sm text-gray-700">
-                  {t("dealer.consentText")}
-                </span>
-              </div>
+  {/* Contact Number */}
+  <div>
+    <label className="block text-gray-800 font-semibold mb-2">
+      Contact Number *
+    </label>
+    <div className="flex">
+      <div className="flex items-center px-3 bg-gray-100 border border-r-0 border-gray-300 rounded-l-lg">
+        🇮🇳 +91
+      </div>
+      <input
+        type="tel"
+        name="contactNumber"
+        placeholder="Enter your contact number"
+        required
+        className="w-full px-4 py-3 border border-gray-300 rounded-r-lg focus:border-[#0072ce] focus:outline-none"
+      />
+    </div>
+  </div>
 
-              <button
-                type="submit"
-                className="mt-4 px-6 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow transition-all text-lg"
-              >
-                {t("dealer.submit")}
-              </button>
-            </form>
+  {/* Product Code */}
+  <div>
+    <label className="block text-gray-800 font-semibold mb-2">
+      Product Code *
+    </label>
+    <select
+      name="productCode"
+      required
+      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none bg-white"
+      defaultValue=""
+    >
+      <option value="" disabled>
+        Select product code
+      </option>
+      <option value="P001">P001</option>
+      <option value="P002">P002</option>
+      <option value="P003">P003</option>
+    </select>
+  </div>
+
+  {/* Product Serial Number */}
+  <div>
+    <label className="block text-gray-800 font-semibold mb-2">
+      Product Serial Number *
+    </label>
+    <input
+      type="text"
+      name="serialNumber"
+      placeholder="Enter product serial number"
+      required
+      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+    />
+  </div>
+
+  {/* File Upload */}
+  <div>
+    <label className="block text-gray-800 font-semibold mb-2">
+      Purchase Proof / Invoice *
+    </label>
+    <div className="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center hover:border-[#0072ce] transition cursor-pointer">
+      <input
+        type="file"
+        name="invoice"
+        accept=".jpg,.jpeg,.png,.webp,.pdf"
+        required
+        className="hidden"
+        id="fileUpload"
+      />
+      <label htmlFor="fileUpload" className="cursor-pointer block">
+        <p className="text-gray-700 font-medium">
+          Drop your file here or click to browse
+        </p>
+        <p className="text-sm text-gray-500 mt-1">
+          JPEG, PNG, WEBP, PDF (max 5MB)
+        </p>
+      </label>
+    </div>
+  </div>
+
+  {/* Terms Checkbox */}
+  <div className="flex items-start gap-3">
+    <input type="checkbox" required className="mt-1" />
+    <p className="text-sm text-gray-700">
+      I agree to the Terms and Conditions *
+    </p>
+  </div>
+
+  {/* Submit Button */}
+  <button
+    type="submit"
+    className="mt-4 px-6 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow transition-all text-lg"
+  >
+    Submit Registration
+  </button>
+</form>
           </div>
         </section>
       </main>
