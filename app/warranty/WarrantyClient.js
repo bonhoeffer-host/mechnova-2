@@ -32,7 +32,7 @@ function WarrantyPage() {
         </section>
 
         {/* Paragraph Section */}
-        <div className="container mx-auto px-4 max-w-4xl mb-12 mt-4 md:mt-0">
+        <div className="container mx-auto px-4 max-w-4xl mb-12 mt-12 md:mt-0">
           <h1 className="text-center text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg mb-3">
             Warranty Registration 
           </h1>
