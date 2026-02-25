@@ -25,8 +25,8 @@ function WarrantyPage() {
         {/* Banner */}
         <section className="relative w-full flex items-center justify-center overflow-hidden mb-14 hidden md:block">
           <img
-            src="/mechnova/banner/product-banner.webp.webp"
-            alt="Become a Dealer Hero"
+            src="/mechnova/banner/product-banner.webp"
+            alt="Mechnova Machines Warranty Registration"
             className="w-full h-72 md:h-[22rem] lg:h-[26rem] object-cover"
           />
         </section>
