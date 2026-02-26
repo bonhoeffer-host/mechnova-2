@@ -1,38 +1,38 @@
 "use client";
+
 import Footer from "@/components/layouts/footer";
 import Header from "@/components/layouts/header";
 import { useRef } from "react";
 import { useTranslation } from "@/lib/useTranslation";
 
 function WarrantyPage() {
+
   const { t } = useTranslation();
   const formRef = useRef(null);
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  const formData = new FormData(e.target);
+    const formData = new FormData(e.target);
 
-  try {
-    const res = await fetch('https://blog.mechnovamachines.in/warranty_save/warranty_save.php', {
-      method: 'POST',
-      body: formData,
-    });
+    try {
+      const res = await fetch("/api/submit", {
+        method: "POST",
+        body: formData,
+      });
 
-    const data = await res.json();
+      const data = await res.json();
 
-    if (data.status) {
-      alert("Registration successful ✅");
-      e.target.reset();   // reset form after success
-    } else {
-      alert(data.message || "Something went wrong");
+      if (data.status) {
+        alert("Registration successful ✅");
+        if (formRef.current) formRef.current.reset();
+      } else {
+        alert(data.message || "Something went wrong");
+      }
+    } catch (err) {
+      console.error("Error submitting form:", err);
+      alert("Server error");
     }
-
-  } catch (err) {
-    console.error("Error submitting form:", err);
-    alert("Server error");
-  }
-};
   };
 
   return (
@@ -74,138 +74,140 @@ const handleSubmit = async (e) => {
             </h2>
 
             <form
-  ref={formRef}
-  className="flex flex-col gap-6 w-full"
-  onSubmit={handleSubmit}
->
-  {/* Customer Name */}
-  <div>
-    <label className="block text-gray-800 font-semibold mb-2">
-      Customer Name *
-    </label>
-    <input
-      type="text"
-      name="customer_name"
-      placeholder="Enter your full name"
-      required
-      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-    />
-  </div>
+              ref={formRef}
+              className="flex flex-col gap-6 w-full"
+              onSubmit={handleSubmit}
+            >
+              {/* Customer Name */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Customer Name *
+                </label>
+                <input
+                  type="text"
+                  name="customer_name"
+                  placeholder="Enter your full name"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
 
-  {/* Contact Number */}
-  <div>
-    <label className="block text-gray-800 font-semibold mb-2">
-      Contact Number *
-    </label>
-    <div className="flex">
-  <div className="flex items-center px-3 bg-gray-100 border border-r-0 border-gray-300 rounded-l-lg whitespace-nowrap">
-    <span className="mr-1">🇮🇳</span>
-    <span>+91</span>
-  </div>
-  <input
-    type="tel"
-    name="contact_number"
-    placeholder="Enter your contact number"
-    required
-    className="w-full px-4 py-3 border border-gray-300 rounded-r-lg focus:border-[#0072ce] focus:outline-none"
-  />
-</div>
-  </div>
-{/* Address */}
-  <div>
-    <label className="block text-gray-800 font-semibold mb-2">
-      Address *
-    </label>
-    <input
-      type="text"
-      name="address"
-      placeholder="Enter full address"
-      required
-      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-    />
-  </div>
+              {/* Contact Number */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Contact Number *
+                </label>
+                <div className="flex">
+                  <div className="flex items-center px-3 bg-gray-100 border border-r-0 border-gray-300 rounded-l-lg whitespace-nowrap">
+                    <span className="mr-1">🇮🇳</span>
+                    <span>+91</span>
+                  </div>
+                  <input
+                    type="tel"
+                    name="contact_number"
+                    placeholder="Enter your contact number"
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-r-lg focus:border-[#0072ce] focus:outline-none"
+                  />
+                </div>
+              </div>
 
-  {/* Product Code */}
-  <div>
-    <label className="block text-gray-800 font-semibold mb-2">
-      Product Code *
-    </label>
-    <select
-      name="product_code"
-      required
-      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none bg-white"
-      defaultValue=""
-    >
-      <option value="" disabled>
-        Select product code
-      </option>
-      <option value="MBC37SC">MBC37SC Brush Cutter</option>
-      <option value="MBC37SBC">MBC37SBC Back Pack Brushcutter</option>
-      <option value="MCS58A-22SN">MCS58A-22SN Chainsaw</option>
-      <option value="MWP1.5X1.5SA">MWP1.5X1.5SA Water Pump</option>
-      <option value="MWP3X3SA">MWP3X3SA Water Pump</option>
-      <option value="ME30A">ME30A Petrol Engine</option>
-      <option value="ME70A">ME70A Petrol Engine</option>
-      <option value="MT900GA-208CC">MT900GA-208CC Power Weeder</option>
-      <option value="MT900GA1-208CC">MT900GA1-208CC Power Weeder</option>
-    </select>
-  </div>
+              {/* Address */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Address *
+                </label>
+                <input
+                  type="text"
+                  name="address"
+                  placeholder="Enter full address"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
 
-  {/* Product Serial Number */}
-  <div>
-    <label className="block text-gray-800 font-semibold mb-2">
-      Product Serial Number *
-    </label>
-    <input
-      type="text"
-      name="product_serial_number"
-      placeholder="Enter product serial number"
-      required
-      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
-    />
-  </div>
+              {/* Product Code */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Product Code *
+                </label>
+                <select
+                  name="product_code"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none bg-white"
+                  defaultValue=""
+                >
+                  <option value="" disabled>
+                    Select product code
+                  </option>
+                  <option value="MBC37SC">MBC37SC Brush Cutter</option>
+                  <option value="MBC37SBC">MBC37SBC Back Pack Brushcutter</option>
+                  <option value="MCS58A-22SN">MCS58A-22SN Chainsaw</option>
+                  <option value="MWP1.5X1.5SA">MWP1.5X1.5SA Water Pump</option>
+                  <option value="MWP3X3SA">MWP3X3SA Water Pump</option>
+                  <option value="ME30A">ME30A Petrol Engine</option>
+                  <option value="ME70A">ME70A Petrol Engine</option>
+                  <option value="MT900GA-208CC">MT900GA-208CC Power Weeder</option>
+                  <option value="MT900GA1-208CC">MT900GA1-208CC Power Weeder</option>
+                </select>
+              </div>
 
-  {/* File Upload */}
-  <div>
-    <label className="block text-gray-800 font-semibold mb-2">
-      Purchase Proof / Invoice *
-    </label>
-    <div className="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center hover:border-[#0072ce] transition cursor-pointer">
-      <input
-        type="file"
-        name="invoice"
-        accept=".jpg,.jpeg,.png,.webp,.pdf"
-        required
-        className="hidden"
-        id="fileUpload"
-      />
-      <label htmlFor="fileUpload" className="cursor-pointer block">
-        <p className="text-gray-700 font-medium">
-          Drop your file here or click to browse
-        </p>
-        <p className="text-sm text-gray-500 mt-1">
-          JPEG, PNG, WEBP, PDF (max 5MB)
-        </p>
-      </label>
-    </div>
-  </div>
+              {/* Product Serial Number */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Product Serial Number *
+                </label>
+                <input
+                  type="text"
+                  name="product_serial_number"
+                  placeholder="Enter product serial number"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
 
-  {/* Terms Checkbox */}
-  <div className="flex items-start gap-3">
-    <input type="checkbox" required className="mt-1" />
-    <p className="text-sm text-gray-700">
-      I agree to the Terms and Conditions *
-    </p>
-  </div>
+              {/* File Upload */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Purchase Proof / Invoice *
+                </label>
+                <div className="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center hover:border-[#0072ce] transition cursor-pointer">
+                  <input
+                    type="file"
+                    name="invoice"
+                    accept=".jpg,.jpeg,.png,.webp,.pdf"
+                    required
+                    className="hidden"
+                    id="fileUpload"
+                  />
+                  <label htmlFor="fileUpload" className="cursor-pointer block">
+                    <p className="text-gray-700 font-medium">
+                      Drop your file here or click to browse
+                    </p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      JPEG, PNG, WEBP, PDF (max 5MB)
+                    </p>
+                  </label>
+                </div>
+              </div>
 
-  {/* Submit Button */}
-  <button
-    type="submit"
-    className="mt-4 px-6 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow transition-all text-lg"
-  >
-    Submit Registration
-  </button>
-</form>
+              {/* Terms Checkbox */}
+              <div className="flex items-start gap-3">
+                <input type="checkbox" required className="mt-1" />
+                <p className="text-sm text-gray-700">
+                  I agree to the Terms and Conditions *
+                </p>
+              </div>
+
+              {/* Submit Button */}
+              <button
+                type="submit"
+                className="mt-4 px-6 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow transition-all text-lg"
+              >
+                Submit Registration
+              </button>
+            </form>
+
           </div>
         </section>
       </main>
