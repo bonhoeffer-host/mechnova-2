@@ -63,7 +63,7 @@ function WarrantyPage() {
     </label>
     <input
       type="text"
-      name="customerName"
+      name="customer_name"
       placeholder="Enter your full name"
       required
       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
@@ -82,7 +82,7 @@ function WarrantyPage() {
   </div>
   <input
     type="tel"
-    name="contactNumber"
+    name="contact_number"
     placeholder="Enter your contact number"
     required
     className="w-full px-4 py-3 border border-gray-300 rounded-r-lg focus:border-[#0072ce] focus:outline-none"
@@ -109,7 +109,7 @@ function WarrantyPage() {
       Product Code *
     </label>
     <select
-      name="productCode"
+      name="product_code"
       required
       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none bg-white"
       defaultValue=""
@@ -136,7 +136,7 @@ function WarrantyPage() {
     </label>
     <input
       type="text"
-      name="serialNumber"
+      name="product_serial_number"
       placeholder="Enter product serial number"
       required
       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
