@@ -21,7 +21,11 @@ function WarrantyPage() {
         body: formData,
       });
 
-      const data = await res.json();
+        const text = await res.text(); // read raw response
+
+    console.log("Server Response:", text);
+
+    const data = JSON.parse(text);
 
       if (data.status) {
         alert("Registration successful ✅");
