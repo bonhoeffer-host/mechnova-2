@@ -8,9 +8,31 @@ function WarrantyPage() {
   const { t } = useTranslation();
   const formRef = useRef(null);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (formRef.current) formRef.current.reset();
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(e.target);
+
+  try {
+    const res = await fetch('https://blog.mechnovamachines.in/warranty_save/warranty_save.php', {
+      method: 'POST',
+      body: formData,
+    });
+
+    const data = await res.json();
+
+    if (data.status) {
+      alert("Registration successful ✅");
+      e.target.reset();   // reset form after success
+    } else {
+      alert(data.message || "Something went wrong");
+    }
+
+  } catch (err) {
+    console.error("Error submitting form:", err);
+    alert("Server error");
+  }
+};
   };
 
   return (
