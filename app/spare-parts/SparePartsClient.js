@@ -63,13 +63,13 @@ function SparePartsPage() {
           <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
             {/* Text Content */}
             <div className="w-full text-center">
-              <h1 className="text-center md:text-left text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg mb-3">
+              <h1 className="text-center text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg mb-3">
                 Spare Parts Request
               </h1>
-              <p className="text-center md:text-left text-xl text-gray-800 font-semibold mb-4">
+              <p className="text-center text-xl text-gray-800 font-semibold mb-4">
                 {t("dealer.tagline")}
               </p>
-              <p className="text-center md:text-left text-gray-700 text-lg">
+              <p className="text-center text-gray-700 text-lg">
                 Request genuine spare parts for your Mechnova machines. Fill out the form below and our team will get back to you with availability and pricing.
               </p>
             </div>
