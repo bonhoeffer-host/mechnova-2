@@ -29,7 +29,7 @@ function SparePartsPage() {
     const data = JSON.parse(text);
 
       if (data.status) {
-        alert("Registration successful ✅");
+        alert("Spare parts request submitted successfully ✅");
         if (formRef.current) formRef.current.reset();
       } else {
         alert(data.message || "Something went wrong");
@@ -53,7 +53,7 @@ function SparePartsPage() {
         <section className="relative w-full flex items-center justify-center overflow-hidden mb-14 hidden md:block">
           <img
             src="/mechnova/banner/product-banner.webp"
-            alt="Mechnova Machines Warranty Registration"
+            alt="Mechnova Machines Spare Parts Request"
             className="w-full h-72 md:h-[22rem] lg:h-[26rem] object-cover"
           />
         </section>
@@ -64,13 +64,13 @@ function SparePartsPage() {
             {/* Text Content */}
             <div className="md:w-2/3">
               <h1 className="text-center md:text-left text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg mb-3">
-                Warranty Registration 
+                Spare Parts Request
               </h1>
               <p className="text-center md:text-left text-xl text-gray-800 font-semibold mb-4">
                 {t("dealer.tagline")}
               </p>
               <p className="text-center md:text-left text-gray-700 text-lg">
-                {t("dealer.intro")}
+                Request genuine spare parts for your Mechnova machines. Fill out the form below and our team will get back to you with availability and pricing.
               </p>
             </div>
             
@@ -79,7 +79,7 @@ function SparePartsPage() {
              <div className="relative w-100 sm:w-48 md:w-56 aspect-[612/792] border-4 border-[#0072ce] shadow-xl">
   <Image
     src="/mechnovamachines-warranty.png"
-    alt="Mechnova Machines Warranty Shield"
+    alt="Mechnova Machines Spare Parts"
     fill
     className="object-contain"
     priority
@@ -93,7 +93,7 @@ function SparePartsPage() {
         <section className="container mx-auto px-4 max-w-2xl pb-16">
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <h2 className="text-2xl font-bold text-[#0072ce] mb-6">
-              Warranty Registration Form
+              Spare Parts Request Form
             </h2>
 
             <form
@@ -135,89 +135,95 @@ function SparePartsPage() {
                 </div>
               </div>
 
+              {/* Email ID */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Email ID *
+                </label>
+                <input
+                  type="email"
+                  name="email_id"
+                  placeholder="Enter your email address"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
+
+              {/* Product Name / Model */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Product Name / Model *
+                </label>
+                <input
+                  type="text"
+                  name="product_model"
+                  placeholder="Enter product name or model"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
+
+              {/* Spare Part Required */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Spare Part Required *
+                </label>
+                <input
+                  type="text"
+                  name="spare_part"
+                  placeholder="Enter spare part name/number"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
+
+              {/* Quantity */}
+              <div>
+                <label className="block text-gray-800 font-semibold mb-2">
+                  Quantity *
+                </label>
+                <input
+                  type="number"
+                  name="quantity"
+                  placeholder="Enter quantity required"
+                  min="1"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
+                />
+              </div>
+
               {/* Address */}
               <div>
                 <label className="block text-gray-800 font-semibold mb-2">
                   Address *
                 </label>
-                <input
-                  type="text"
+                <textarea
                   name="address"
-                  placeholder="Enter full address"
+                  placeholder="Enter complete address with pincode"
                   required
+                  rows="3"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
                 />
               </div>
 
-              {/* Product Code */}
+              {/* Remarks (if any) */}
               <div>
                 <label className="block text-gray-800 font-semibold mb-2">
-                  Product Code *
+                  Remarks (if any)
                 </label>
-                <select
-                  name="product_code"
-                  required
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none bg-white"
-                  defaultValue=""
-                >
-                  <option value="" disabled>
-                    Select product code
-                  </option>
-                  <option value="MBC37SC">MBC37SC Brush Cutter</option>
-                  <option value="MBC37SBC">MBC37SBC Back Pack Brushcutter</option>
-                  <option value="MCS58A-22SN">MCS58A-22SN Chainsaw</option>
-                  <option value="MWP1.5X1.5SA">MWP1.5X1.5SA Water Pump</option>
-                  <option value="MWP3X3SA">MWP3X3SA Water Pump</option>
-                  <option value="ME30A">ME30A Petrol Engine</option>
-                  <option value="ME70A">ME70A Petrol Engine</option>
-                  <option value="MT900GA-208CC">MT900GA-208CC Power Weeder</option>
-                  <option value="MT900GA1-208CC">MT900GA1-208CC Power Weeder</option>
-                </select>
-              </div>
-
-              {/* Product Serial Number */}
-              <div>
-                <label className="block text-gray-800 font-semibold mb-2">
-                  Product Serial Number *
-                </label>
-                <input
-                  type="text"
-                  name="product_serial_number"
-                  placeholder="Enter product serial number"
-                  required
+                <textarea
+                  name="remarks"
+                  placeholder="Any additional details or special instructions"
+                  rows="2"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0072ce] focus:outline-none"
                 />
-              </div>
-
-              {/* File Upload */}
-              <div>
-                <label className="block text-gray-800 font-semibold mb-2">
-                  Purchase Proof / Invoice *
-                </label>
-                <div className="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center hover:border-[#0072ce] transition cursor-pointer">
-                  <input
-                    type="file"
-                    name="invoice"
-                    accept=".jpg,.jpeg,.png,.webp,.pdf"
-                    className="hidden"
-                    id="fileUpload"
-                  />
-                  <label htmlFor="fileUpload" className="cursor-pointer block">
-                    <p className="text-gray-700 font-medium">
-                      Drop your file here or click to browse
-                    </p>
-                    <p className="text-sm text-gray-500 mt-1">
-                      JPEG, PNG, WEBP, PDF (max 5MB)
-                    </p>
-                  </label>
-                </div>
               </div>
 
               {/* Terms Checkbox */}
               <div className="flex items-start gap-3">
                 <input type="checkbox" required className="mt-1" />
                 <p className="text-sm text-gray-700">
-                  I agree to the Terms and Conditions *
+                  I confirm that the information provided is accurate and I agree to the Terms and Conditions *
                 </p>
               </div>
 
@@ -226,7 +232,7 @@ function SparePartsPage() {
                 type="submit"
                 className="mt-4 px-6 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow transition-all text-lg"
               >
-                Submit Registration
+                Submit Spare Parts Request
               </button>
             </form>
 
