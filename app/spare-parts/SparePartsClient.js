@@ -153,7 +153,7 @@ function SparePartsPage() {
               {/* Spare Part Required */}
               <div>
                 <label className="block text-gray-800 font-semibold mb-2">
-                  Spare Part Required *
+                  Spare Part *
                 </label>
                 <input
                   type="text"
