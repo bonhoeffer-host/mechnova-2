@@ -22,12 +22,12 @@ function Industries() {
 		{
 			title: t("home.industries.domestic.title"),
 			desc: t("home.industries.domestic.description"),
-			image: "/mechnova/banner/Domestic.webp",
+			image: "/mechnova/banner/Landscaping.webp",
 		},
 		{
 			title: t("home.industries.greenhouses.title"),
 			desc: t("home.industries.greenhouses.description"),
-			image: "/mechnova/banner/diesel.webp",
+			image: "/mechnova/banner/Forestry.webp",
 		}
 	];
 
