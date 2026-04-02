@@ -22,7 +22,7 @@
         "id": "5",
         "name": "Agro-Industrial",
         "products": {
-            "gasoline-tiller": {
+            "power-weeder": {
                 "id": "1",
                 "name": "Power Weeder",
                 "detail": "yes",
