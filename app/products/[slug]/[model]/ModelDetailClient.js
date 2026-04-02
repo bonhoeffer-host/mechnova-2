@@ -79,10 +79,10 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
 
           {/* Model Leaflet Images */}
-<div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-4 mb-8">
+{/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-4 mb-8"> */}
 
   {/* LEFT — YOUTUBE VIDEO */}
-  <div className="w-full">
+  {/* <div className="w-full">
     <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
       <iframe
         src="https://www.youtube.com/embed/dR8Go5A0gtI?si=65WWiwTbxRnWtrUn&rel=0&modestbranding=1"
@@ -93,19 +93,19 @@ export default function ModelDetailClient({ slug, model }) {
         allowFullScreen
       />
     </div>
-  </div>
+  </div> */}
 
   {/* RIGHT — IMAGE */}
-  <div className="flex justify-center">
+  {/* <div className="flex justify-center">
     <img
       src={currentModel.leaflet_image}
       alt="Product Leaflet"
       className="max-h-[900px] w-auto rounded-lg"
       onError={(e) => (e.target.src = '/about.webp')}
     />
-  </div>
+  </div> */}
 
-</div>
+{/* </div> */}
 
         
 
@@ -155,7 +155,7 @@ export default function ModelDetailClient({ slug, model }) {
               </div>
 
               {/* Features */}
-              <div className="bg-white rounded-xl shadow-md p-6">
+              {/* <div className="bg-white rounded-xl shadow-md p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {t('home.productsPage.keyFeatures')}
                 </h3>
@@ -169,12 +169,12 @@ export default function ModelDetailClient({ slug, model }) {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* FAQs */}
-          <div className="bg-white rounded-xl shadow-md p-6">
+          {/* <div className="bg-white rounded-xl shadow-md p-6">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               {t('home.productsPage.frequentlyAskedQuestions')}
             </h3>
@@ -195,7 +195,7 @@ export default function ModelDetailClient({ slug, model }) {
                 </details>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Back Button */}
           <div className="mt-8 text-center">

@@ -3,7 +3,7 @@ import ModelDetailClient from './ModelDetailClient'
 import detailedModelData from '../detailedModelData.json'
 
 export async function generateMetadata({ params }) {
-  const { slug, model } = params
+  const { slug, model } = await params
   
   if (!detailedModelData[slug]) {
     return {
@@ -28,8 +28,8 @@ export async function generateMetadata({ params }) {
   }
 }
 
-export default function ModelDetailPage({ params }) {
-  const { slug, model } = params
+export default async function ModelDetailPage({ params }) {
+  const { slug, model } = await params
   
   // Check if product exists
   if (!detailedModelData[slug]) {
