@@ -45,6 +45,35 @@ function ContactPage() {
             className="object-cover object-center"
           />
         </section>
+         {/* Support & Inquiries Section (Below Form) */}
+         {useTranslation().locale === 'en' && (
+        <section className="container mx-auto px-4 mb-24 max-w-6xl">
+            <div className="grid lg:grid-cols-12 gap-10 items-center bg-white/50 backdrop-blur-xl rounded-[3rem] p-8 md:p-16 shadow-2xl border border-white/80">
+              <div className="lg:col-span-6 space-y-8">
+                <div className="inline-flex items-center gap-3 bg-blue-100 text-[#0072ce] px-5 py-2 rounded-full font-bold text-sm uppercase tracking-wider">
+                  <FaPhoneAlt /> Customer Support
+                </div>
+                <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                  Get in Touch with Mechnova Machines for <span className="text-[#0072ce]">Support & Inquiries</span>
+                </h2>
+                <p className="text-xl text-gray-600 leading-relaxed font-medium">
+                  Still confused between choosing a trusted partner of agricultural equipment? Then the Mechnova Machines contact page is your go-to destination.
+                </p>
+              </div>
+              <div className="lg:col-span-6 space-y-6 bg-white/80 p-8 rounded-[2rem] shadow-inner border border-blue-50">
+                <p className="text-gray-700 leading-relaxed">
+                  To get your queries resolved quickly, whether you are a dealer, distributor, or farmer, you can very easily find and access all the Mechnova Machines phone numbers and support details.
+                </p>
+                <p className="text-gray-700 leading-relaxed">The contact section mentioned on the website provides all the necessary information to help users regarding product inquiries, dealership opportunities, and after-sales support. Farmers can reach out anytime to gain knowledge and information on any machines like brush cutters, power weeders, chainsaws, and water pumps and get guidance on selecting any of the machines according to their needs.</p>
+                <p className="text-gray-700 leading-relaxed">
+                  The contact page also serves as a helpful resource to understand the company's performance, quality, and farmer-friendly solutions. The experienced support team is available to answer questions regarding pricing policy, features of products, and service requirements.
+Getting assistance and help is easily accessible from Mechnova Machines' phone number and contact form. Reach out today to explore reliable agricultural machinery and get the support you need for efficient farming.
+                </p>
+              </div>
+            </div>
+            </section>
+          )}
+        
 
         <div className="flex flex-col items-center justify-center text-center px-4 mb-8">
           <div className="flex justify-between items-center w-full">
