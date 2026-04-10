@@ -51,9 +51,9 @@ function ContactPage() {
             <div className="grid lg:grid-cols-12 gap-10 items-center bg-white/50 backdrop-blur-xl rounded-[3rem] p-8 md:p-16 shadow-2xl border border-white/80">
               <div className="lg:col-span-6 space-y-8">
                 
-                <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                   Get in Touch with Mechnova Machines for <span className="text-[#0072ce]">Support & Inquiries</span>
-                </h2>
+                </h1>
                 <p className="text-xl text-gray-600 leading-relaxed font-medium">
                   Still confused between choosing a trusted partner of agricultural equipment? Then the Mechnova Machines contact page is your go-to destination.
                 </p>
@@ -76,9 +76,9 @@ Getting assistance and help is easily accessible from Mechnova Machines' phone n
 
         <div className="flex flex-col items-center justify-center text-center px-4 mb-8">
           <div className="flex justify-between items-center w-full">
-            <h1 className="flex-1 text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg">
+            <h2 className="flex-1 text-4xl md:text-5xl font-extrabold text-[#0072ce] drop-shadow-lg">
               {t('contact.getInTouch')}
-            </h1>
+            </h2>
           </div>
         </div>
 
