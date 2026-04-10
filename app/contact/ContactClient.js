@@ -50,9 +50,7 @@ function ContactPage() {
         <section className="container mx-auto px-4 mb-24 max-w-6xl">
             <div className="grid lg:grid-cols-12 gap-10 items-center bg-white/50 backdrop-blur-xl rounded-[3rem] p-8 md:p-16 shadow-2xl border border-white/80">
               <div className="lg:col-span-6 space-y-8">
-                <div className="inline-flex items-center gap-3 bg-blue-100 text-[#0072ce] px-5 py-2 rounded-full font-bold text-sm uppercase tracking-wider">
-                  <FaPhoneAlt /> Customer Support
-                </div>
+                
                 <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                   Get in Touch with Mechnova Machines for <span className="text-[#0072ce]">Support & Inquiries</span>
                 </h2>
