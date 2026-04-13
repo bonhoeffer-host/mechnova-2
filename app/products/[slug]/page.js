@@ -26,7 +26,8 @@ import {
   ChainsawSEOConclusion,
   BrushCutterSEOTop, 
   BrushCutterSEOBottom,
-  PowerWeederSEOIntro, 
+  PowerWeederSEOIntro,
+  GasolineWaterPumpSEOIntro, 
 } from '@/components/sections/SEOModules'
 
 function ModelCard({ slug, model }) {
@@ -180,7 +181,7 @@ export default function ProductSlugPage() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
-
+            {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOTop />}
             <div className="max-w-5xl mx-auto flex flex-col gap-12 mt-10">
               {oldProductData.models && oldProductData.models.length > 0 ? (
                 oldProductData.models

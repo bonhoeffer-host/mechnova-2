@@ -252,6 +252,9 @@ export const BrushCutterSEOBottom = () => (
 );
 export const PowerWeederSEOIntro = () => (
   <section class="max-w-7xl mx-auto px-4 py-10">
+    <p class="text-gray-600">
+    In India the traditional approach of farming is replaced by modern farming techniques, which involves the use of modern machines, which helps in saving time and labor. Talking about the machines, one of the most useful machines is a power weeder, also known as a power tiller. It is widely used for weed removal, soil preparation, and intercultivation of soil. Farmers generally prefer a petrol-powered weeder because of its powerful engine and ease of use.  A 7 HP power weeder is a popular choice among farmers due to the right balance and power provided by the machine. It can work in small- to medium-sized land.
+    </p>
         <h2 class="text-2xl font-semibold text-gray-800 mb-4">
             Why is a petrol-powered weeder preferred?
         </h2>
@@ -331,6 +334,73 @@ export const PowerWeederSEOIntro = () => (
       
         <p class="text-gray-700 leading-relaxed">
             A power weeder is a helpful machine for farming today. It helps farmers save time and reduces the work they have to do manually. This machine also helps to grow crops. When looking for a power weeder in India, a 7 HP petrol power weeder is a good option. It works well. Gives good results for a long time. Using the power weeder, farmers can take care of their fields more easily. They can also start farming in a way that gives more crops. The power weeder helps farmers achieve this. It makes farming with a power weeder productive.
+        </p>
+      </section>
+);
+export const GasolineWaterPumpSEOIntro = () => (
+  <section class="max-w-7xl mx-auto px-4 py-10">
+
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            To do successful farming, water management plays a crucial role. Whether it be irrigation, water transfer, or drainage, using the right machine makes all the difference. To move water efficiently across the fields, a gasoline water pump is the most effective tool. A water pump is an important tool where there is an absence of electricity or it is limited or unavailable. Its unique portable design and powerful engine manage water supply without depending on fixed power resources. 
+        </p>
+     
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+            Key Features of a Gasoline Water Pump
+        </h2>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+            Portable and Easy to Use
+        </h3>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            One of the greatest features of a water pump is its portability. Farmers can easily move it from one field to another. Products designed by Mechnova Machines are easy to use and beginner-friendly, ensuring easy operation each time. 
+        </p>
+         <div class="space-y-6 mb-10">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Durable Construction</h3>
+            <p class="text-gray-600">
+                A good water pump is made with materials. These materials help the water pump handle conditions. Mechnova Machines makes water pumps. These water pumps are designed to last a long time. They are built for long-term use. The water pumps do need some maintenance to keep working.
+            </p>
+          </div>
+      
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Power Engine Performance</h3>
+            <p class="text-gray-600">
+                A water pump is equipped with a powerful engine, which enables it to deliver consistent and uninterrupted performance. The engine produces high pumping capacity, making it suitable for irrigation and drainage tasks.
+            </p>
+          </div>
+        </div>
+
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+            Advantages of Using a Gasoline Water Pump
+        </h2>
+        <div class="space-y-6 mb-10">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Works Without Electricity</h3>
+            <p class="text-gray-600">
+                A gasoline pump is really useful because it works without electricity. This is great for people who live in areas where they do not have electricity all the time. A water pump works without electricity, which is an advantage. This makes it ideal for remote and rural areas.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Saves Time and Effort</h3>
+            <p class="text-gray-600">
+                A gasoline pump can move water quickly. This means you can save time when you are irrigating your farm with a gasoline pump. You do not have to do a lot of work with a gasoline pump because it can do the job for you. A strong gasoline pump is very good at moving water. This is why it is so useful for people who are involved in farming activities. 
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Suitable for Terrains</h3>
+            <p class="text-gray-600">
+                It does not matter if your farm is flat or if it has a lot of hills. A portable gasoline pump can be used anywhere you want on your farm. You can take a gasoline pump to any place on your farm. A gasoline pump is not hard to use. They are very useful for people who have farms because they work without electricity and can move water quickly.
+            </p>
+          </div>
+        </div>
+      
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4"> How to Choose the Right Water Pump? </h2>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+            When you are trying to find the water pump for your farm, you need to think about a few things. You have to consider where the water is coming from, how much water you need to move, and how big your field is. You also need to check how powerful the engine is, how well the pump is made, and if it is easy to fix if something goes wrong. If you pick a brand like Mechnova, you can be sure that the water pump will last a long time, work well, and be good for your farm.
+        </p>
+       
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
+        <p class="text-gray-700 leading-relaxed">
+            A gasoline pump is really important for farming these days. It helps farmers do their jobs better and faster. They can use it for irrigation. To move water around. A good gas-water pump can do a lot of things easily. Mechnova Machines has solutions that farmers can count on. With these solutions, farmers can manage water better, work less, and get more done. Buying the water pump for agriculture is a good idea if you want to farm better and smarter. A good water pump for agriculture can make a difference.
         </p>
       </section>
 );
