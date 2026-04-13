@@ -19,6 +19,14 @@ import modelDataBn from './modelData-bn.json'
 import modelDataMr from './modelData-mr.json'
 import modelDataTe from './modelData-te.json'
 import modelDataGj from './modelData-gj.json'
+import { 
+  ChainsawSEOIntro, 
+  ChainsawSEOFeatures, 
+  ChainsawSEOUses, 
+  ChainsawSEOConclusion,
+  BrushCutterSEOTop, 
+  BrushCutterSEOBottom 
+} from '@/components/sections/SEOModules'
 
 function ModelCard({ slug, model }) {
   const { t } = useTranslation()
@@ -32,9 +40,6 @@ function ModelCard({ slug, model }) {
         onError={e => e.target.src='/about.webp'} 
       />
       <h3 className="font-bold text-xl text-gray-900 mb-3 text-center">{model.code}</h3>
-      {/* <p className="text-gray-600 mb-3 text-sm">
-        Model: <span className="font-semibold text-[#0072ce]">{model.code}</span>
-      </p> */}
       <div className="mt-auto">
         <Link 
           href={`/products/${slug}/${model.code}`} 
@@ -54,27 +59,19 @@ export default function ProductSlugPage() {
   const [categoryInfo, setCategoryInfo] = useState(null)
   const [isDetailedProduct, setIsDetailedProduct] = useState(false)
   const [oldProductData, setOldProductData] = useState(null)
-  const sliderRef = useRef(null);
-  const indexRef = useRef(0);
   const sliderRefs = useRef([]);
-
 
   useEffect(() => {
     if (slug) {
-      // Get category data based on language
-     const categoryData =
-  locale === 'en' ? categoryDataEn :
-  locale === 'es' ? categoryDataEs :
-  locale === 'bn' ? categoryDataBn :
-  locale === 'mr' ? categoryDataMr :
-  locale === 'te' ? categoryDataTe :
-  locale === 'gj' ? categoryDataGj :
+      const categoryData =
+        locale === 'en' ? categoryDataEn :
+        locale === 'es' ? categoryDataEs :
+        locale === 'bn' ? categoryDataBn :
+        locale === 'mr' ? categoryDataMr :
+        locale === 'te' ? categoryDataTe :
+        locale === 'gj' ? categoryDataGj :
+        categoryDataEn;
 
-  
-  categoryDataEn; // fallback
-
-      
-      // Find the category and product info
       let foundProduct = null
       let foundCategory = null
       
@@ -87,39 +84,29 @@ export default function ProductSlugPage() {
       
       setCategoryInfo(foundCategory)
       
-      // Check if this product has detailed model data
       if (foundProduct && foundProduct.detail === "yes" && detailedModelData[slug]) {
         setProductData(detailedModelData[slug])
         setIsDetailedProduct(true)
         setOldProductData(null)
       } else {
-        // For regular products, use the old modelData structure based on language
-const modelDataMap = {
-  en: modelDataEn,
-  es: modelDataEs,
-  hi: modelDataHi || modelDataEn,  // fallback to English
-  bn: modelDataBn || modelDataEn, 
-  mr: modelDataMr, 
-  te: modelDataTe,
-  gj: modelDataGj,
+        const modelDataMap = {
+          en: modelDataEn,
+          es: modelDataEs,
+          hi: modelDataHi || modelDataEn,
+          bn: modelDataBn || modelDataEn, 
+          mr: modelDataMr, 
+          te: modelDataTe,
+          gj: modelDataGj,
+        };
 
-
-};
-
-
-const modelData = modelDataMap[locale] || modelDataEn;
-
-
-
+        const modelData = modelDataMap[locale] || modelDataEn;
         const oldProduct = modelData[slug]
         if (oldProduct) {
-          // Check if the old product also has detail: "yes", then prioritize new view
           if (oldProduct.detail === "yes" && detailedModelData[slug]) {
             setProductData(detailedModelData[slug])
             setIsDetailedProduct(true)
             setOldProductData(null)
           } else {
-            // Use old view for detail: "no" or missing detail field
             setOldProductData(oldProduct)
             setIsDetailedProduct(false)
             setProductData(null)
@@ -133,54 +120,36 @@ const modelData = modelDataMap[locale] || modelDataEn;
     }
   }, [slug, locale])
 
-  // Autoplay logic for sliding images
-useEffect(() => {
-  if (!oldProductData || !oldProductData.models) return;
+  useEffect(() => {
+    if (!oldProductData || !oldProductData.models) return;
+    const intervals = [];
+    oldProductData.models.forEach((model, index) => {
+      const slider = sliderRefs.current[index];
+      if (!slider) return;
+      const images = Array.isArray(model.images) && model.images.length > 0 ? model.images : [model.image];
+      const totalImages = images.length;
+      if (totalImages <= 1) return;
+      let slideIndex = 0;
+      const interval = setInterval(() => {
+        slideIndex = (slideIndex + 1) % totalImages;
+        slider.scrollTo({
+          left: slider.clientWidth * slideIndex,
+          behavior: "smooth",
+        });
+      }, 3000);
+      intervals.push(interval);
+    });
+    return () => intervals.forEach(clearInterval);
+  }, [oldProductData]);
 
-  const intervals = [];
-
-  oldProductData.models.forEach((model, index) => {
-    const slider = sliderRefs.current[index];
-    if (!slider) return;
-
-    // SAFELY HANDLE IMAGES
-    const images = Array.isArray(model.images) && model.images.length > 0
-      ? model.images
-      : [model.image];
-
-    const totalImages = images.length;
-    if (totalImages <= 1) return; // Skip autoplay for single image
-
-    let slideIndex = 0;
-
-    const interval = setInterval(() => {
-      slideIndex = (slideIndex + 1) % totalImages;
-      slider.scrollTo({
-        left: slider.clientWidth * slideIndex,
-        behavior: "smooth",
-      });
-    }, 3000);
-
-    intervals.push(interval);
-  });
-
-  return () => intervals.forEach(clearInterval);
-}, [oldProductData]);
-
-
-  // If neither detailed nor old product data exists
   if (!productData && !oldProductData) {
     return (
       <>
         <Header />
         <main className="min-h-screen bg-gray-50 flex items-center justify-center">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              {t('home.productsPage.productNotFound')}
-            </h2>
-            <p className="text-gray-600 mb-6">
-              {t('home.productsPage.productNotAvailable')}
-            </p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('home.productsPage.productNotFound')}</h2>
+            <p className="text-gray-600 mb-6">{t('home.productsPage.productNotAvailable')}</p>
             <Link href="/products" className="text-[#0072ce] hover:text-blue-700 font-medium">
               ← {t('home.productsPage.backToProducts')}
             </Link>
@@ -191,20 +160,14 @@ useEffect(() => {
     )
   }
 
-  // Render old view for detail: "no" products
-   // Hero Section
+  // Non-detailed View
   if (!isDetailedProduct && oldProductData) {
     return (
       <>
         <Header />
         <main className="bg-gradient-to-br from-[#E6F2FB] to-[#cbe7ff] pb-12">
-          {/* Hero banner */}
           <div className="relative w-full mb-10">
-            <img
-              src="/mechnova/banner/banner-m.webp"
-              alt="Productos"
-              className="w-full h-full object-cover"
-            />
+            <img src="/mechnova/banner/banner-m.webp" alt="Productos" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent flex items-center">
               <div className="px-8 md:px-20">
                 <h1 className="text-4xl md:text-6xl font-bold text-white mb-2">{oldProductData.name}</h1>
@@ -213,100 +176,62 @@ useEffect(() => {
             </div>
           </div>
 
-          {/* Models Section */}
-          <div className="max-w-5xl mx-auto flex flex-col gap-12 px-4">
-            {oldProductData.models && oldProductData.models.length > 0 ? (
-              oldProductData.models
-                .sort((a, b) => Number(a.id) - Number(b.id))
-                .map((model, idx) => (
-                  <div
-                    key={model.code}
-                    className={`flex flex-col md:flex-row items-center md:items-stretch gap-6 md:gap-12 ${idx % 2 === 1 ? "md:flex-row-reverse" : ""}`}
-                  >
-                    {/* Image Slider for Model */}
-                    <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
-                  <div
-                    ref={(el) => (sliderRefs.current[idx] = el)}
-                    style={{
-                      display: "flex",
-                      overflowX: "auto",
-                      scrollBehavior: "smooth",
-                      scrollbarWidth: "none",        // Firefox
-                      msOverflowStyle: "none",       // IE & Edge
-                    }}
-                    className="h-full"
-                  >
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
+            {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
 
-
-                  {Array.isArray(model.images) && model.images.length > 0 ? (
-                    model.images.map((image, i) => (
-                      <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
-                        <img
-                          src={image}
-                          alt={`${model.name} Image ${i + 1}`}
-                          className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
-                          onError={(e) => { 
-                            e.target.src = oldProductData.error_image || '/about.webp'; 
-                          }} // Fallback image
-                        />
+            <div className="max-w-5xl mx-auto flex flex-col gap-12 mt-10">
+              {oldProductData.models && oldProductData.models.length > 0 ? (
+                oldProductData.models
+                  .sort((a, b) => Number(a.id) - Number(b.id))
+                  .map((model, idx) => (
+                    <div key={model.code} className={`flex flex-col md:flex-row items-center md:items-stretch gap-6 md:gap-12 ${idx % 2 === 1 ? "md:flex-row-reverse" : ""}`}>
+                      <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
+                        <div ref={(el) => (sliderRefs.current[idx] = el)} style={{ display: "flex", overflowX: "auto", scrollBehavior: "smooth", scrollbarWidth: "none" }} className="h-full">
+                          {Array.isArray(model.images) && model.images.length > 0 ? (
+                            model.images.map((image, i) => (
+                              <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
+                                <img src={image} alt={`${model.name} Image ${i + 1}`} className="rounded-lg shadow-lg bg-white w-full h-full object-cover" onError={(e) => { e.target.src = oldProductData.error_image || '/about.webp'; }} />
+                              </div>
+                            ))
+                          ) : (
+                            <div className="w-full flex-shrink-0 h-full relative snap-center">
+                              <img src={model.image} alt={model.name} className="rounded-lg shadow-lg bg-white w-full h-full object-cover" onError={(e) => { e.target.src = oldProductData.error_image || '/about.webp'; }} />
+                            </div>
+                          )}
+                        </div>
                       </div>
-                    ))
-                  ) : (
-                    <div className="w-full flex-shrink-0 h-full relative snap-center">
-                      <img
-                        src={model.image}
-                        alt={model.name}
-                        className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
-                        onError={(e) => { 
-                          e.target.src = oldProductData.error_image || '/about.webp'; 
-                        }} // Fallback image
-                      />
+                      <div className="flex-1 flex flex-col justify-center bg-gray-50 rounded-lg p-6 shadow">
+                        <h3 className="text-xl font-semibold text-[#0072ce] mb-2">{model.name}</h3>
+                        <p className="mb-1"><span className="font-bold">{t('home.productsPage.code')}</span> {model.code}</p>
+                        <p className="mb-1"><span className="font-bold">{t('home.productsPage.warranty')}</span> {model.warranty}</p>
+                        <p className="whitespace-pre-line"><span className="font-bold">{t('home.productsPage.specificationsLabel')}</span> <br /> {model.specifications}</p>
+                        <span className="flex flex-col md:flex-row items-start md:items-center mt-4 gap-4">
+                          <Link href="/contact"><button className="p-2 bg-[#0072ce] text-gray-100 text-lg rounded-lg cursor-pointer hover:bg-blue-600 hover:scale-110 transition">{t('home.productsPage.requestQuote')}</button></Link>
+                          <Link href="tel:+917428642333"><button className="md:ml-4 p-2 bg-[#0072ce] text-gray-100 text-lg rounded-lg cursor-pointer hover:bg-blue-600 hover:scale-110 transition">{t('home.productsPage.callUs')}</button></Link>
+                        </span>
+                      </div>
                     </div>
-                  )}
-                </div>
+                  ))
+              ) : (
+                <div className="text-center text-gray-500">{t('home.productsPage.noModelsAvailable')}</div>
+              )}
+            </div>
+
+            {slug === 'chainsaw' && locale === 'en' && (
+              <div className="mt-16 space-y-4">
+                <ChainsawSEOFeatures />
+                <ChainsawSEOUses />
+                <ChainsawSEOConclusion />
               </div>
-
-
-
-                    {/* Model Info */}
-                    <div className="flex-1 flex flex-col justify-center bg-gray-50 rounded-lg p-6 shadow">
-                      <h3 className="text-xl font-semibold text-[#0072ce] mb-2">{model.name}</h3>
-                      <p className="mb-1">
-                        <span className="font-bold">{t('home.productsPage.code')}</span> {model.code}
-                      </p>
-                      <p className="mb-1">
-                        <span className="font-bold">{t('home.productsPage.warranty')}</span> {model.warranty}
-                      </p>
-                      <p className="whitespace-pre-line">
-                        <span className="font-bold">{t('home.productsPage.specificationsLabel')}</span> <br /> {model.specifications}
-                      </p>
-                      <span className="flex flex-col md:flex-row items-start md:items-center mt-4 gap-4">
-                        <Link href="/contact">
-                          <button className="p-2 bg-[#0072ce] text-gray-100 text-lg rounded-lg cursor-pointer hover:bg-blue-600 hover:scale-110 transition">
-                            {t('home.productsPage.requestQuote')}
-                          </button>
-                        </Link>
-                        <Link href="tel:+917428642333">
-                          <button className="md:ml-4 p-2 bg-[#0072ce] text-gray-100 text-lg rounded-lg cursor-pointer hover:bg-blue-600 hover:scale-110 transition">
-                            {t('home.productsPage.callUs')}
-                          </button>
-                        </Link>
-                      </span>
-                    </div>
-                  </div>
-                ))
-            ) : (
-              <div className="text-center text-gray-500">{t('home.productsPage.noModelsAvailable')}</div>
             )}
-          </div>
 
-          {/* Back link */}
-          <div className="mt-16 flex justify-center">
-            <Link href="/products" className="">
-              <button className="bg-[#0072ce] text-white text-xl font-medium p-4 rounded-xl cursor-pointer hover:scale-110 transition-all">
-                {t('home.productsPage.backToProductsButton')}
-              </button>
-            </Link>
+            <div className="mt-16 flex justify-center">
+              <Link href="/products">
+                <button className="bg-[#0072ce] text-white text-xl font-medium p-4 rounded-xl cursor-pointer hover:scale-110 transition-all">{t('home.productsPage.backToProductsButton')}</button>
+              </Link>
+            </div>
+            {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
           </div>
         </main>
         <Footer />
@@ -314,7 +239,7 @@ useEffect(() => {
     );
   }
 
-  // Render new view for detail: "yes" products
+  // Detailed View
   if (isDetailedProduct && productData) {
     const productName = locale === 'en' ? (productData.nameEn || productData.name) : productData.name
     const productDescription = locale === 'en' ? (productData.descriptionEn || productData.description) : productData.description
@@ -323,60 +248,55 @@ useEffect(() => {
       <>
         <Header />
         <main className="bg-gradient-to-br from-[#E6F2FB] to-[#cbe7ff] min-h-screen pb-12">
-        <div className="block" style={{ height: '4.5em' }} aria-hidden="true" />
-        {/* Hero Banner */}
-        <div className="relative w-full mb-10">
-          <img 
-            src={productData.banner_image || productData.hero_image} 
-            alt={productName} 
-            className="w-full object-cover" 
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent flex items-center">
-            <div className="px-8 md:px-20">
-              <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">
-                {productName}
-              </h1>
-              <p className="text-lg md:text-xl text-blue-100">
-                {productDescription}
-              </p>
+          <div className="block" style={{ height: '4.5em' }} aria-hidden="true" />
+          <div className="relative w-full mb-10">
+            <img src={productData.banner_image || productData.hero_image} alt={productName} className="w-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent flex items-center">
+              <div className="px-8 md:px-20">
+                <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">{productName}</h1>
+                <p className="text-lg md:text-xl text-blue-100">{productDescription}</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Models Grid */}
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0072ce] text-center mb-2">
-              {t('home.productsPage.availableModels')}
-            </h2>
-            <p className="text-gray-600 text-center">
-              {t('home.productsPage.chooseFromSelection')}
-            </p>
-          </div>
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
+            {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {productData.models.map((model, index) => (
-              <ModelCard key={model.code || index} slug={slug} model={model} />
-            ))}
-          </div>
+            <div className="mt-10">
+              <div className="mb-8">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#0072ce] text-center mb-2">{t('home.productsPage.availableModels')}</h2>
+                <p className="text-gray-600 text-center">{t('home.productsPage.chooseFromSelection')}</p>
+              </div>
 
-          {/* Back Button */}
-          <div className="mt-12 text-center">
-            <Link href="/products" className="inline-flex items-center gap-2 text-[#0072ce] hover:text-blue-700 font-medium">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              {t('home.productsPage.backToProducts')}
-            </Link>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {productData.models.map((model, index) => (
+                  <ModelCard key={model.code || index} slug={slug} model={model} />
+                ))}
+              </div>
+
+              {slug === 'chainsaw' && locale === 'en' && (
+                <div className="mt-16 space-y-4">
+                  <ChainsawSEOFeatures />
+                  <ChainsawSEOUses />
+                  <ChainsawSEOConclusion />
+                </div>
+              )}
+
+              <div className="mt-12 text-center">
+                <Link href="/products" className="inline-flex items-center gap-2 text-[#0072ce] hover:text-blue-700 font-medium">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                  {t('home.productsPage.backToProducts')}
+                </Link>
+              </div>
+              {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
+            </div>
           </div>
-        </div>
-      </main>
-      <Footer />
-    </>
+        </main>
+        <Footer />
+      </>
     )
   }
 
-  // This should never be reached, but just in case
   return null
 }
-
