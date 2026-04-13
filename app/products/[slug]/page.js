@@ -263,7 +263,7 @@ export default function ProductSlugPage() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
-            {slug === 'brushcutter' && locale === 'en' && <PowerWeederSEOIntro />}
+            {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOIntro />}
             <div className="mt-10">
               <div className="mb-8">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#0072ce] text-center mb-2">{t('home.productsPage.availableModels')}</h2>
