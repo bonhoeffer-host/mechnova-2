@@ -250,3 +250,87 @@ export const BrushCutterSEOBottom = () => (
     </div>
   </section>
 );
+export const PowerWeederSEOIntro = () => (
+  <section class="max-w-7xl mx-auto px-4 py-10">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+            Why is a petrol-powered weeder preferred?
+        </h2>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            A petrol-powered weeder is chosen by farmers due to the following factors:
+        </p>
+      
+      
+        <div class="space-y-6 mb-10">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Strong Engine Performance </h3>
+            <p class="text-gray-600">
+                A 7 HP power weeder is equipped with a power engine, which offers high power output, making it capable of working under heavy-duty tasks. The machine can work in dry, wet, and muddy land conditions as well.
+            </p>
+          </div>
+      
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Multipurpose Usage</h3>
+            <p class="text-gray-600">
+                The activities of a power weeder are not limited to just weeding. These can also be used for soil loosening, mixing of fertilizers with the soil, and preparation of seedbeds. This makes them a completely complete solution for farming needs. 
+            </p>
+          </div>
+      
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Easy Operation and Handling</h3>
+            <p class="text-gray-600">
+                These days most of the modern tillers are designed with easy and simple controls and instructions with adjustable handlebars and a recoil start system. This is beneficial for farmers who are less educated and new to the machinery.
+            </p>
+          </div>
+        </div>
+    
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+            Benefits of Using the Best Power Weeder in India
+        </h2>
+        <div class="space-y-6 mb-10">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Improves Soil Quality</h3>
+            <p class="text-gray-600">
+              A power weeder regularly loosens the soil, which improves the aeration and allows roots to grow properly and easily. Having better soil structure helps the crop to retain moisture and improves the absorption of nutrients. A healthier environment is created for crops, leading to stronger plant growth and yield. 
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Save Time and Labor</h3>
+            <p class="text-gray-600">
+               A power weeder can complete days of manual work in hours. As compared to traditional farming methods, which require a lot of time and effort, especially for activities like weeding and soil preparation, a power weeder is a perfect replacement, as it can perform these tasks much faster, covering large areas in less time. 
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Increases Productivity</h3>
+            <p class="text-gray-600">
+             As tasks managed by the power weeder are completed effectively and efficiently, it makes it easier for farmers to focus on other important components, including activities like irrigation, crop care, and harvesting. Hence, overall productivity of farms is enhanced due to better time management. 
+            </p>
+          </div>
+        </div>
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+            Choosing the Best Tiller in India
+        </h2>
+      
+        <p class="text-gray-700 mb-4 leading-relaxed">
+            When buying a tiller in India, farmers should think about their land size, soil type, and budget.
+        </p>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+            A 7 HP petrol power weeder is an option for farmers who need a strong and reliable machine for daily farming tasks with their tiller. They need a tiller that can handle their farming work.
+        </p>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+            Here are some things to consider:
+        </p>
+      
+        <ul class="list-disc pl-6 text-gray-600 space-y-2 mb-10">
+          <li>A 7 HP petrol power weeder is suitable for farming work with your tiller.</li>
+          <li>You should check the build quality of the tiller. A sturdy tiller will last longer.</li>
+          <li>Think about how easy it's to maintain your tiller. You do not want to spend much time fixing it.</li>
+          <li>Also check if parts for the tiller are easily available before buying a tiller. This will save you trouble later.</li>
+        </ul>
+      
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
+      
+        <p class="text-gray-700 leading-relaxed">
+            A power weeder is a helpful machine for farming today. It helps farmers save time and reduces the work they have to do manually. This machine also helps to grow crops. When looking for a power weeder in India, a 7 HP petrol power weeder is a good option. It works well. Gives good results for a long time. Using the power weeder, farmers can take care of their fields more easily. They can also start farming in a way that gives more crops. The power weeder helps farmers achieve this. It makes farming with a power weeder productive.
+        </p>
+      </section>
+);
