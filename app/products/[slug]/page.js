@@ -182,6 +182,7 @@ export default function ProductSlugPage() {
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
             {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOIntro />}
+            {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOIntro />}
             <div className="max-w-5xl mx-auto flex flex-col gap-12 mt-10">
               {oldProductData.models && oldProductData.models.length > 0 ? (
                 oldProductData.models

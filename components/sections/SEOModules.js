@@ -404,3 +404,77 @@ export const GasolineWaterPumpSEOIntro = () => (
         </p>
       </section>
 );
+export const GasolineEngineSEOIntro = () => (
+  <section class="max-w-7xl mx-auto px-4 py-10">
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            A petrol engine, also known as a gas engine, is an important agricultural tool in modern farming. It is commonly used in machines like power weeders, water pumps, sprayers, and other sorts of agricultural equipment. In today’s time, farmers prefer petrol engines because they are easy to use, provide smooth and consistent performance, and require less maintenance. 
+        </p>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            When you are looking for the best petrol engine brand in India, go for a company that offers durability, efficiency, and power output. With the help of a good petrol engine, farmers can complete their tasks much more easily and quickly. 
+        </p>
+   
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+            Key Features of a Petrol Engine
+        </h2>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+            Powerful and Consistent Performance
+        </h3>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            A petrol engine is equipped with a power mechanism that delivers strong and stable power output, making it an ideal fit for long and heavy-duty tasks. Whether you use it in a water pump or tiller, it gives smooth operation in every situation. 
+        </p>
+         <div class="space-y-6 mb-10">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Fuel-Efficient Design</h3>
+            <p class="text-gray-600">
+                A well-designed gasoline engine is made to consume less fuel while maintaining high performance. This is beneficial for farmers as it reduces cost, and you can run machines for longer hours without frequent refueling. 
+           </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Easy Start and Rugged Build</h3>
+            <p class="text-gray-600">
+                These days modern engines come with an easy recoil start system, which enables quick and hassle-free ignition. The engine is built with strong material that offers benefits in the long run; also, it reduces vibration and makes the machine comfortable for longer durations.
+            </p>
+          </div>
+        </div>
+    
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4"> Benefits of Using Petrol Engine </h2>
+        <div class="space-y-6 mb-10">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Saves Time and Effort
+            </h3>
+            <p class="text-gray-600">
+                By using a petrol engine, farming tasks become much easier and faster compared to the manual methods. The machine is capable of providing support to activities like pumping of water, spraying, and soil preparation. This also reduces physical pressure and burden on farmers and helps them manage large areas without needing extra labor.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Suitable for Remote Areas
+            </h3>
+            <p class="text-gray-600">
+                One of the biggest advantages of a petrol engine is that it does not depend on electricity to work. This machine can be used by farmers in rural areas without worrying about the power supply. This makes them highly practical and dependable for fieldwork, ensuring that farming activities continue without delays. 
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Increases Work Efficiency</h3>
+            <p class="text-gray-600">
+                It does not matter if your farm is flat or if it has a lot of hills. A portable gasoline pump can be used anywhere you want on your farm. You can take a gasoline pump to any place on your farm. A gasoline pump is not hard to use. They are very useful for people who have farms because they work without electricity and can move water quickly.
+            </p>
+          </div>
+        </div>
+ 
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4"> Why Choose Mechnova Machines </h2>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+            Mechnova Machines is famous for its engines that are made for farming in India. These engines are made to last and easy to use. Always give the same result, which makes them perfect for farming and watering crops.
+        </p>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+            A Mechnova petrol engine can be used for things so farmers can get the most out of a machine. Mechnova Machines are great because they can power a water pump or a tiller and always give results. Mechnova Machines are really good at helping farmers with their work.
+        </p>
+      
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
+        <p class="text-gray-700 leading-relaxed">
+            A gas engine is really important for farmers these days. It helps them use all sorts of machines easily. When you pick the gas engine, it works better and lasts longer. This means farming is easier and more efficient. You get results when you use a good gas engine for farming.
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+            With trusted options like Mechnova Machines, farmers can invest in a reliable engine for agriculture and an engine for irrigation that supports multiple tasks. A good petrol engine not only saves time and effort but also helps improve overall farm productivity.
+         </p>
+      </section>
+);

@@ -586,7 +586,7 @@
 
     "gasoline-engine":{
         "id": "3",
-        "name": "Gasoline Engine",
+        "name": "Petrol Engine for Agriculture: Powering Modern Farming Equipment",
         "category": "agro-industrial",
         "description": "Gasoline engines for agricultural and industrial applications",
         "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
