@@ -49,56 +49,54 @@
         "leaflet_image":  "/testing/MT900G-208CC.jpg",
         "specifications": "Motor: 208cc, 4 tiempos, gasolina\nPotencia: 7HP\nAncho de trabajo: 36 cm\nProfundidad máxima: 20 cm\nCapacidad del tanque: 3.6L\nPeso: 45 kg\nSistema de arranque: Manual retráctil",
         "specificationsEn": "Max Power: 7 HP (208cc, 4-Stroke Engine, 40Cr Heavy Duty Crankshaft)\nPower: 7HP\nWorking width: 1050 mm (4 groups)\nWorking Depth: ≥ 200 mm\nTransmission Type: Gear Type (2 Forward, 1 Reverse)\nStart Type: Recoil Starter\nAir Filter: Oil Bath Type\nHandle: Rotatable\nTyre Size: 4.00-8 Inflatable Tyre\nEngine Oil Capacity: 0.6 L\nFuel Tank Capacity: 3.5 L\nGearbox Oil Capacity: 1.8 L",
-         "heading":"Power Weeder MT900GA-208CC – High Performance Farming Machine",
-        "subHeading":"A 7 HP power weeder is an agricultural machine commonly used for the practices of tilling, weeding and preparation of soil. It involves rotating blades, which help in penetrating the soil, uprooting the weeding and breaking the compacted soil. The machine either uses a petrol or gasoline engine, which makes them work efficiently in crop lands, vegetable fields, etc. It is generally a lightweight machine designed to be used easily, having adjustable blades, so that farmers can set the depth and width, as some crops may require shallow tilling of soil, while others may need deep tilling. ",
-        "subHeading":"A 7 HP power weeder is an agricultural machine commonly used for the practices of tilling, weeding and preparation of soil. It involves rotating blades, which help in penetrating the soil, uprooting the weeding and breaking the compacted soil. The machine either uses a petrol or gasoline engine, which makes them work efficiently in crop lands, vegetable fields, etc. It is generally a lightweight machine designed to be used easily, having adjustable blades, so that farmers can set the depth and width, as some crops may require shallow tilling of soil, while others may need deep tilling. ",
-        
+         "heading":"Power Weeder MT900GA1-208CC – Efficient & Reliable Agriculture Tool",
+        "subHeading":"A 7 HP power weeder is an agricultural machine commonly used for the practices of tilling, weeding and preparation of soil. They're a good switch from the labour-intensive manual weeding to saving time, enhancing output and yield. The 7 HP denotes the engine power of the machine, which is the horsepower, making it durable enough to handle tough soil conditions while manageable for the farmers to operate fully by themselves.",
         "features": [
           "Motor de gasolina de 4 tiempos de alta eficiencia",
-          "Transmisión por correa para mayor durabilidad",
-          "Manillar ajustable para mayor comodidad",
+          "Adjustable handlebar for better comfort during long use",
+          "Suitable for small and medium scale farming operations",
           "Ruedas neumáticas para fácil transporte",
           "Fresas de acero templado para mayor resistencia"
         ],
         "featuresEn": [
-          "High efficiency 4-stroke gasoline engine",
-          "Belt transmission for greater durability",
-          "Adjustable handlebar for greater comfort",
-          "Pneumatic wheels for easy transport",
-          "Tempered steel tines for greater resistance"
+          "Gear transmission system for smooth and efficient control",
+          "Adjustable handlebar for better comfort during long use",
+          "Suitable for small and medium scale farming operations",
+          "Easy movement with strong and stable wheel support",
+          "Efficient soil tilling with deep working capability"
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Qué tipo de combustible utiliza este motocultor?",
-        "questionEn": "What is the difference between solid tyres and tube tyres in power weeders?",
-        "answer": "Este motocultor utiliza gasolina sin plomo de 87 octanos o superior. El motor es de 4 tiempos, por lo que NO requiere mezcla de aceite con la gasolina.",
-        "answerEn": "Solid tyres are puncture-resistant and involve less maintenance, while tube (inflatable) tyres provide better absorption of shock and smoother movement."
-      },
-      {
-        "question": "¿Cuál es el ancho de trabajo máximo?",
-        "questionEn": "Is the Mechnova Power Weeder suitable for small farms?",
-        "answer": "El ancho de trabajo es de 36 cm, ideal para trabajos en espacios medianos y huertos familiares.",
-        "answerEn": "Yes, Mechnova Power Weeders are specially designed for small to medium-sized farms and are a perfect fit to operate between crop rows and in tough soil conditions."
-      },
-      {
-        "question": "¿Qué mantenimiento requiere?",
-        "questionEn": "Warranty period of Mechnova Power Weeder?",
-        "answer": "Mantenimiento básico incluye: cambio de aceite cada 25 horas de uso, limpieza del filtro de aire, revisión de bujías y lubricación de puntos móviles según manual del usuario.",
-        "answerEn": "Mechnova power weeder comes with a warranty of 6 months."
-      },
-      {
-        "question": "¿Incluye garantía?",
         "questionEn": "How many types of Power Weeder models are available?",
-        "answer": "Sí, incluye garantía de 12 meses por defectos de fabricación. La garantía cubre motor, transmisión y componentes principales.",
+        "answer": "Este motocultor utiliza gasolina sin plomo de 87 octanos o superior. El motor es de 4 tiempos, por lo que NO requiere mezcla de aceite con la gasolina.",
         "answerEn": "There are 2 type of power weeder models available which are: MT900GA-208CC - Solid tyre, MT900GA1-208CC - Tube tyre"
       },
       {
-        "question": "¿Es adecuado para terrenos duros?",
+        "question": "¿Cuál es el ancho de trabajo máximo?",
         "questionEn": "Is it suitable for all types of soil?",
-        "answer": "Sí, con su motor de 7HP y fresas de acero templado, puede trabajar eficientemente en terrenos compactados y duros.",
+        "answer": "El ancho de trabajo es de 36 cm, ideal para trabajos en espacios medianos y huertos familiares.",
         "answerEn": "Yes, it is designed to work in different soil conditions, including hard and uneven land, making it suitable for various farming needs."
+      },
+      {
+        "question": "¿Qué mantenimiento requiere?",
+        "questionEn": "What is the difference between solid tyres and tube tyres in power weeders?",
+        "answer": "Mantenimiento básico incluye: cambio de aceite cada 25 horas de uso, limpieza del filtro de aire, revisión de bujías y lubricación de puntos móviles según manual del usuario.",
+        "answerEn": "Solid tyres are puncture-resistant and involve less maintenance, while tube (inflatable) tyres provide better absorption of shock and smoother movement."
+      },
+      {
+        "question": "¿Incluye garantía?",
+        "questionEn": "Warranty period of Mechnova Power Weeder?",
+        "answer": "Sí, incluye garantía de 12 meses por defectos de fabricación. La garantía cubre motor, transmisión y componentes principales.",
+        "answerEn": "Mechnova power weeder comes with a warranty of 6 months"
+      },
+      {
+        "question": "¿Es adecuado para terrenos duros?",
+        "questionEn": "Is the Mechnova Power Weeder suitable for small farms?",
+        "answer": "Sí, con su motor de 7HP y fresas de acero templado, puede trabajar eficientemente en terrenos compactados y duros.",
+        "answerEn": "Yes, Mechnova Power Weeders are specially designed for small to medium-sized farms and are a perfect fit to operate between crop rows and in tough soil conditions."
       }
     ]
   }
