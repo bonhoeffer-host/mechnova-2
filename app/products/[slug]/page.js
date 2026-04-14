@@ -27,7 +27,8 @@ import {
   BrushCutterSEOTop, 
   BrushCutterSEOBottom,
   PowerWeederSEOIntro,
-  GasolineWaterPumpSEOIntro, 
+  GasolineWaterPumpSEOIntro,
+  GasolineEngineSEOIntro, 
 } from '@/components/sections/SEOModules'
 
 function ModelCard({ slug, model }) {
