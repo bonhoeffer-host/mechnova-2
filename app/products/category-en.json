@@ -7,13 +7,13 @@
             "chainsaw": {
                 "id": "1",
                 "name": "Chainsaw",
-                "detail": "no",
+                "detail": "yes",
                 "image": "/mechnova/products/chainsaw/hero-chainsaw.webp"
             },
             "brushcutter": {
                 "id": "6",
                 "name": "Brushcutter",
-                "detail": "no",
+                "detail": "yes",
                 "image": "/mechnova/products/brushcutter/hero-brushcutter.webp"
             }
         }

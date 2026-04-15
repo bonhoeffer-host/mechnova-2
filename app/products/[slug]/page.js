@@ -77,17 +77,18 @@ export default function ProductSlugPage() {
 
       let foundProduct = null
       let foundCategory = null
-      
+        
       Object.entries(categoryData).forEach(([categoryKey, category]) => {
         if (category.products && category.products[slug]) {
           foundProduct = { key: slug, ...category.products[slug] }
           foundCategory = { key: categoryKey, ...category }
         }
       })
-      
+    
       setCategoryInfo(foundCategory)
       
       if (foundProduct && foundProduct.detail === "yes" && detailedModelData[slug]) {
+        
         setProductData(detailedModelData[slug])
         setIsDetailedProduct(true)
         setOldProductData(null)
@@ -165,6 +166,7 @@ export default function ProductSlugPage() {
 
   // Non-detailed View
   if (!isDetailedProduct && oldProductData) {
+    
     return (
       <>
         <Header />
@@ -245,6 +247,7 @@ export default function ProductSlugPage() {
 
   // Detailed View
   if (isDetailedProduct && productData) {
+   
     const productName = locale === 'en' ? (productData.nameEn || productData.name) : productData.name
     const productDescription = locale === 'en' ? (productData.descriptionEn || productData.description) : productData.description
 

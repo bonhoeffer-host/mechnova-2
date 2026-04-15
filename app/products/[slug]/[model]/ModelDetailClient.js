@@ -109,6 +109,11 @@ export default function ModelDetailClient({ slug, model }) {
             <h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-2">
               {productName}
             </h3>
+            {currentModel.nextSubHeading && (
+            <p className="text-base text-gray-600 mb-2">
+              {currentModel.nextSubHeading}
+            </p>
+            )}
             <p className="text-2xl text-gray-600 mb-4">
               Model: <span className="font-semibold text-[#0072ce]">{currentModel.code}</span>
             </p>

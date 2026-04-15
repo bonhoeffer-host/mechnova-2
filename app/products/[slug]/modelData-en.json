@@ -176,8 +176,36 @@
         ]
     },
 
-    "multi-tool":{
+    "brushcutter":{
         "id": "6",
+        "name": "Brush Cutter",
+        "category": "gardening-forestry",
+        "description": "Professional brush cutters for vegetation management",
+        "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
+        "error_image": "/mechnova/products/brushcutter/BBC26DA.webp",
+        "models": [
+            {
+                "code": "MBC37SC",
+                "name": "Brush Cutter",
+                "id": "1", 
+                "warranty": "6 Months",
+                "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 37.7 CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle"
+            },
+            {
+                "code": "MBC37SBC",
+                "name": "Backpack Brush Cutter",
+                "id": "2", 
+                "warranty": "6 Months",
+                "image": "/mechnova/products/brushcutter/MBC37SBC.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 37.7CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.8 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle"
+            }
+            
+        ]
+    },
+
+    "multi-tool":{
+        "id": "7",
         "name": "Multi Tool",
         "category": "gardening-forestry",
         "description": "Multifunctional tool for gardening",
