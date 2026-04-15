@@ -60,12 +60,12 @@ const categoryData = locale === 'en'
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent flex items-center">
             <div className="px-8 md:px-20">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{t('home.productsPage.title')} <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent"></span></h1>
-              <p className="text-lg md:text-2xl text-blue-100">{t('home.productsPage.subtitle')}</p>
             </div>
           </div>
         </div>
         {/* Categories and Products */}
         <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <p className="text-lg md:text-xl mb-8">{t('home.productsPage.subtitle')}</p>
           {categories.map(category => {
             // Convert products to array and sort by id
             const products = Object.entries(category.products || {})
