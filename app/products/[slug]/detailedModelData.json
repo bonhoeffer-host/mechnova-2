@@ -99,5 +99,89 @@
         "answerEn": "Yes, Mechnova Power Weeders are specially designed for small to medium-sized farms and are a perfect fit to operate between crop rows and in tough soil conditions."
       }
     ]
+  },
+  "brushcutter": {
+    "id": "2",
+    "name": "",
+    "nameEn": "Brush Cutter",
+    "description": "",
+    "descriptionEn": "Professional brush cutters for vegetation management",
+    "category": "gardening-forestry",
+    "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
+    "warranty": "",
+    "warrantyEn": "6 Months",
+    "models": [
+      {
+        "code": "MBC37SC",
+        "name": "",
+        "nameEn": "Brush Cutter",
+        "metaTitle": "Brush Cutter MBC37SC - Mechnova Machines",
+        "metaDescription": "",
+        "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+        "leaflet_image":  "/testing/MT900GA-208CC.jpg",
+        "specifications": "",
+        "specificationsEn": "Engine: Gasoline, 4-Stroke, 37.7 CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle",
+        "heading":"Brush  Cutter  MBC37SC  –  Efficient  4-Stroke  Grass  Cutting Machine",
+        "subHeading":"The  MBC37SC  is  a  reliable  and  efficient  machine  designed  for  cutting  grass,  light  bushes, and weeds  with  absolute  ease.  It  runs  a  4-stroke  engine,  which  delivers  1.35  HP  power  output, making  it  suitable  for  agricultural  activities.  Unlike  traditional  machines,  this  machine  offers  a 4-stroke  engine,  which  offers  smoother  operation,  less  vibration,  and  better  fuel  efficiency.  This makes it a perfect fit for farmers who want less noise and effort with consistent performance. \n\n The  machine  is  well  designed  to  give  better  control  and  reduce  fatigue  during  the  operations.  It has  a  D-shaped  handle  that  provides  a  firm  grip,  which  makes  it  easier  for  the  user  to  guide  the machine  and  control  it  while  working.  The  machine  is  capable  of  handling  regular  usage  without any  wear  and  tear.  As  the  machine  has  a  manual  recoil  start  system,  the  machine  gets  started quickly without any complication.",
+        "nextSubHeading":"Overall,  the  MBC37SC  brush  cutter  is  a  good  option  for  a  routine  grass-cutting  machine.  The machine  is  an  ideal  pick  for  farmers  who  work  on  small  farms  and  for  garden  use,  as  it  provides steady  performance.  If  you  are  looking  for  a  machine  that  is  easy  to  manage  and  delivers consistent results, this brush cutter is a practical and efficient choice.",
+        "features": [
+          ""
+        ],
+        "featuresEn": [
+          "Comfortable D-shaped handle for better grip and contro",
+          "4-stroke engine for smoother and quieter operation",
+          "Strong shaft design for stable and steady performance",
+          "Compact design for easy handling and movement",
+          "Reinforced exhaust for improved durability and life",
+          "Easy recoil start system for quick machine startup"
+        ]
+      },
+      {
+        "code": "MBC37SBC",
+        "name": "",
+        "nameEn": "Backpack Brush Cutter",
+        "metaTitle": "Brush Cutter MBC37SBC - Mechnova Machines",
+        "metaDescription": "",
+        "image": "/mechnova/products/brushcutter/MBC37SBC.webp",
+        "leaflet_image":  "/testing/MT900G-208CC.jpg",
+        "specifications": "",
+        "specificationsEn": "Engine: Gasoline, 4-Stroke, 37.7CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.8 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle",
+         "heading":"",
+        "subHeading":"",
+        "features": [
+          ""
+        ],
+        "featuresEn": [
+          ""
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "",
+        "questionEn": "Why is a 4-stroke engine better? ",
+        "answer": "",
+        "answerEn": "In  comparison  to  a  2-stroke  engine,  a  4-stroke  engine  requires  less  maintenance  and  cleaning work.  Its  engine  runs  smoothly  without  any  interruption,  which  is  perfect  for  cutting  grass, weeds, and small plants on farms."
+      },
+      {
+        "question": "",
+        "questionEn": "What is the warranty period of the Mechnova Brush Cutter? ",
+        "answer": "",
+        "answerEn": "The Mechnova Brush Cutter comes with a warranty of 6 months. "
+      },
+      {
+        "question": "",
+        "questionEn": "Can the machine be used for long working hours comfortably? ",
+        "answer": "",
+        "answerEn": "Yes,  the  D-handle  design  helps  in  maintaining  a  firm  grip  and  reduces  strain  on  the  hands, making it easier to use for longer durations. "
+      },
+      {
+        "question": "",
+        "questionEn": " Can the machine cut thick grass?",
+        "answer": "",
+        "answerEn": "Yes, it  can  cut  dense  grass  and  light  bushes  effectively,  making  it  suitable  for  regular  field  and garden maintenance."
+      }
+    ]
   }
 }
