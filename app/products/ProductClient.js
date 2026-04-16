@@ -53,15 +53,16 @@ const categoryData = locale === 'en'
         <Header/>
       </header>
       <main className="bg-gradient-to-br from-[#E6F2FB] to-[#cbe7ff] min-h-screen pb-12">
-        <div className="block" style={{ height: '4.5em' }} aria-hidden="true" />
+        <div className="block min-h-[20em] sm:min-h-auto pt-[76px]" aria-hidden="true">
         {/* Hero Banner */}
-        <div className="relative w-full mb-10">
-          <img src="/mechnova/banner/product-banner.webp" alt="mechnova machines products" className="w-full h-full object-cover" />
+        <div className="relative min-h-[20em] sm:min-h-auto w-full mb-10">
+          <img src="/mechnova/banner/product-banner.webp" alt="mechnova machines products" className="sm:w-full h-[20em] sm:h-full w-auto object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent flex items-center">
             <div className="px-8 md:px-20">
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{t('home.productsPage.title')} <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent"></span></h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-white my-2">{t('home.productsPage.title')} <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent"></span></h1>
             </div>
           </div>
+        </div>
         </div>
         {/* Categories and Products */}
         <div className="max-w-7xl mx-auto px-4 md:px-8">
