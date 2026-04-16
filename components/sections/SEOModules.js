@@ -251,229 +251,234 @@ export const BrushCutterSEOBottom = () => (
   </section>
 );
 export const PowerWeederSEOIntro = () => (
-  <section class="max-w-7xl mx-auto px-4 py-10">
-    <p class="text-gray-600">
+  <section className="max-w-7xl mx-auto px-4 pt-10">
+    <p className="text-gray-600">
     In India the traditional approach of farming is replaced by modern farming techniques, which involves the use of modern machines, which helps in saving time and labor. Talking about the machines, one of the most useful machines is a power weeder, also known as a power tiller. It is widely used for weed removal, soil preparation, and intercultivation of soil. Farmers generally prefer a petrol-powered weeder because of its powerful engine and ease of use.  A 7 HP power weeder is a popular choice among farmers due to the right balance and power provided by the machine. It can work in small- to medium-sized land.
     </p>
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Why is a petrol-powered weeder preferred?
         </h2>
-        <p class="text-gray-700 mb-6 leading-relaxed">
+        <p className="text-gray-700 mb-6 leading-relaxed">
             A petrol-powered weeder is chosen by farmers due to the following factors:
         </p>
       
       
-        <div class="space-y-6 mb-10">
+        <div className="space-y-6 mb-10">
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Strong Engine Performance </h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Strong Engine Performance </h3>
+            <p className="text-gray-600">
                 A 7 HP power weeder is equipped with a power engine, which offers high power output, making it capable of working under heavy-duty tasks. The machine can work in dry, wet, and muddy land conditions as well.
             </p>
           </div>
       
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Multipurpose Usage</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Multipurpose Usage</h3>
+            <p className="text-gray-600">
                 The activities of a power weeder are not limited to just weeding. These can also be used for soil loosening, mixing of fertilizers with the soil, and preparation of seedbeds. This makes them a completely complete solution for farming needs. 
             </p>
           </div>
       
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Easy Operation and Handling</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Easy Operation and Handling</h3>
+            <p className="text-gray-600">
                 These days most of the modern tillers are designed with easy and simple controls and instructions with adjustable handlebars and a recoil start system. This is beneficial for farmers who are less educated and new to the machinery.
             </p>
           </div>
         </div>
     
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Benefits of Using the Best Power Weeder in India
         </h2>
-        <div class="space-y-6 mb-10">
+        <div className="space-y-6 mb-10">
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Improves Soil Quality</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Improves Soil Quality</h3>
+            <p className="text-gray-600">
               A power weeder regularly loosens the soil, which improves the aeration and allows roots to grow properly and easily. Having better soil structure helps the crop to retain moisture and improves the absorption of nutrients. A healthier environment is created for crops, leading to stronger plant growth and yield. 
             </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Save Time and Labor</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Save Time and Labor</h3>
+            <p className="text-gray-600">
                A power weeder can complete days of manual work in hours. As compared to traditional farming methods, which require a lot of time and effort, especially for activities like weeding and soil preparation, a power weeder is a perfect replacement, as it can perform these tasks much faster, covering large areas in less time. 
             </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Increases Productivity</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Increases Productivity</h3>
+            <p className="text-gray-600">
              As tasks managed by the power weeder are completed effectively and efficiently, it makes it easier for farmers to focus on other important components, including activities like irrigation, crop care, and harvesting. Hence, overall productivity of farms is enhanced due to better time management. 
             </p>
           </div>
         </div>
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        
+      </section>
+);
+export const PowerWeederSEOBottom = () => (
+  <section className="max-w-7xl mx-auto px-4 py-10">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Choosing the Best Tiller in India
         </h2>
       
-        <p class="text-gray-700 mb-4 leading-relaxed">
+        <p className="text-gray-700 mb-4 leading-relaxed">
             When buying a tiller in India, farmers should think about their land size, soil type, and budget.
         </p>
-        <p class="text-gray-700 mb-4 leading-relaxed">
+        <p className="text-gray-700 mb-4 leading-relaxed">
             A 7 HP petrol power weeder is an option for farmers who need a strong and reliable machine for daily farming tasks with their tiller. They need a tiller that can handle their farming work.
         </p>
-        <p class="text-gray-700 mb-4 leading-relaxed">
+        <p className="text-gray-700 mb-4 leading-relaxed">
             Here are some things to consider:
         </p>
       
-        <ul class="list-disc pl-6 text-gray-600 space-y-2 mb-10">
+        <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-10">
           <li>A 7 HP petrol power weeder is suitable for farming work with your tiller.</li>
           <li>You should check the build quality of the tiller. A sturdy tiller will last longer.</li>
           <li>Think about how easy it's to maintain your tiller. You do not want to spend much time fixing it.</li>
           <li>Also check if parts for the tiller are easily available before buying a tiller. This will save you trouble later.</li>
         </ul>
       
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
       
-        <p class="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 leading-relaxed">
             A power weeder is a helpful machine for farming today. It helps farmers save time and reduces the work they have to do manually. This machine also helps to grow crops. When looking for a power weeder in India, a 7 HP petrol power weeder is a good option. It works well. Gives good results for a long time. Using the power weeder, farmers can take care of their fields more easily. They can also start farming in a way that gives more crops. The power weeder helps farmers achieve this. It makes farming with a power weeder productive.
         </p>
       </section>
 );
 export const GasolineWaterPumpSEOIntro = () => (
-  <section class="max-w-7xl mx-auto px-4 py-10">
+  <section className="max-w-7xl mx-auto px-4 py-10">
 
-        <p class="text-gray-700 mb-6 leading-relaxed">
+        <p className="text-gray-700 mb-6 leading-relaxed">
             To do successful farming, water management plays a crucial role. Whether it be irrigation, water transfer, or drainage, using the right machine makes all the difference. To move water efficiently across the fields, a gasoline water pump is the most effective tool. A water pump is an important tool where there is an absence of electricity or it is limited or unavailable. Its unique portable design and powerful engine manage water supply without depending on fixed power resources. 
         </p>
      
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Key Features of a Gasoline Water Pump
         </h2>
-        <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h3 className="text-2xl font-semibold text-gray-800 mb-4">
             Portable and Easy to Use
         </h3>
-        <p class="text-gray-700 mb-6 leading-relaxed">
+        <p className="text-gray-700 mb-6 leading-relaxed">
             One of the greatest features of a water pump is its portability. Farmers can easily move it from one field to another. Products designed by Mechnova Machines are easy to use and beginner-friendly, ensuring easy operation each time. 
         </p>
-         <div class="space-y-6 mb-10">
+         <div className="space-y-6 mb-10">
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Durable Construction</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Durable Construction</h3>
+            <p className="text-gray-600">
                 A good water pump is made with materials. These materials help the water pump handle conditions. Mechnova Machines makes water pumps. These water pumps are designed to last a long time. They are built for long-term use. The water pumps do need some maintenance to keep working.
             </p>
           </div>
       
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Power Engine Performance</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Power Engine Performance</h3>
+            <p className="text-gray-600">
                 A water pump is equipped with a powerful engine, which enables it to deliver consistent and uninterrupted performance. The engine produces high pumping capacity, making it suitable for irrigation and drainage tasks.
             </p>
           </div>
         </div>
 
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Advantages of Using a Gasoline Water Pump
         </h2>
-        <div class="space-y-6 mb-10">
+        <div className="space-y-6 mb-10">
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Works Without Electricity</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Works Without Electricity</h3>
+            <p className="text-gray-600">
                 A gasoline pump is really useful because it works without electricity. This is great for people who live in areas where they do not have electricity all the time. A water pump works without electricity, which is an advantage. This makes it ideal for remote and rural areas.
             </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Saves Time and Effort</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Saves Time and Effort</h3>
+            <p className="text-gray-600">
                 A gasoline pump can move water quickly. This means you can save time when you are irrigating your farm with a gasoline pump. You do not have to do a lot of work with a gasoline pump because it can do the job for you. A strong gasoline pump is very good at moving water. This is why it is so useful for people who are involved in farming activities. 
             </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Suitable for Terrains</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Suitable for Terrains</h3>
+            <p className="text-gray-600">
                 It does not matter if your farm is flat or if it has a lot of hills. A portable gasoline pump can be used anywhere you want on your farm. You can take a gasoline pump to any place on your farm. A gasoline pump is not hard to use. They are very useful for people who have farms because they work without electricity and can move water quickly.
             </p>
           </div>
         </div>
       
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4"> How to Choose the Right Water Pump? </h2>
-        <p class="text-gray-700 mb-4 leading-relaxed">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4"> How to Choose the Right Water Pump? </h2>
+        <p className="text-gray-700 mb-4 leading-relaxed">
             When you are trying to find the water pump for your farm, you need to think about a few things. You have to consider where the water is coming from, how much water you need to move, and how big your field is. You also need to check how powerful the engine is, how well the pump is made, and if it is easy to fix if something goes wrong. If you pick a brand like Mechnova, you can be sure that the water pump will last a long time, work well, and be good for your farm.
         </p>
        
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
-        <p class="text-gray-700 leading-relaxed">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
+        <p className="text-gray-700 leading-relaxed">
             A gasoline pump is really important for farming these days. It helps farmers do their jobs better and faster. They can use it for irrigation. To move water around. A good gas-water pump can do a lot of things easily. Mechnova Machines has solutions that farmers can count on. With these solutions, farmers can manage water better, work less, and get more done. Buying the water pump for agriculture is a good idea if you want to farm better and smarter. A good water pump for agriculture can make a difference.
         </p>
       </section>
 );
 export const GasolineEngineSEOIntro = () => (
-  <section class="max-w-7xl mx-auto px-4 py-10">
-        <p class="text-gray-700 mb-6 leading-relaxed">
+  <section className="max-w-7xl mx-auto px-4 py-10">
+        <p className="text-gray-700 mb-6 leading-relaxed">
             A petrol engine, also known as a gas engine, is an important agricultural tool in modern farming. It is commonly used in machines like power weeders, water pumps, sprayers, and other sorts of agricultural equipment. In today’s time, farmers prefer petrol engines because they are easy to use, provide smooth and consistent performance, and require less maintenance. 
         </p>
-        <p class="text-gray-700 mb-6 leading-relaxed">
+        <p className="text-gray-700 mb-6 leading-relaxed">
             When you are looking for the best petrol engine brand in India, go for a company that offers durability, efficiency, and power output. With the help of a good petrol engine, farmers can complete their tasks much more easily and quickly. 
         </p>
    
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Key Features of a Petrol Engine
         </h2>
-        <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+        <h3 className="text-2xl font-semibold text-gray-800 mb-4">
             Powerful and Consistent Performance
         </h3>
-        <p class="text-gray-700 mb-6 leading-relaxed">
+        <p className="text-gray-700 mb-6 leading-relaxed">
             A petrol engine is equipped with a power mechanism that delivers strong and stable power output, making it an ideal fit for long and heavy-duty tasks. Whether you use it in a water pump or tiller, it gives smooth operation in every situation. 
         </p>
-         <div class="space-y-6 mb-10">
+         <div className="space-y-6 mb-10">
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Fuel-Efficient Design</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Fuel-Efficient Design</h3>
+            <p className="text-gray-600">
                 A well-designed gasoline engine is made to consume less fuel while maintaining high performance. This is beneficial for farmers as it reduces cost, and you can run machines for longer hours without frequent refueling. 
            </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Easy Start and Rugged Build</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Easy Start and Rugged Build</h3>
+            <p className="text-gray-600">
                 These days modern engines come with an easy recoil start system, which enables quick and hassle-free ignition. The engine is built with strong material that offers benefits in the long run; also, it reduces vibration and makes the machine comfortable for longer durations.
             </p>
           </div>
         </div>
     
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4"> Benefits of Using Petrol Engine </h2>
-        <div class="space-y-6 mb-10">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Benefits of Using Petrol Engine </h2>
+        <div className="space-y-6 mb-10">
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Saves Time and Effort
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Saves Time and Effort
             </h3>
-            <p class="text-gray-600">
+            <p className="text-gray-600">
                 By using a petrol engine, farming tasks become much easier and faster compared to the manual methods. The machine is capable of providing support to activities like pumping of water, spraying, and soil preparation. This also reduces physical pressure and burden on farmers and helps them manage large areas without needing extra labor.
             </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Suitable for Remote Areas
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Suitable for Remote Areas
             </h3>
-            <p class="text-gray-600">
+            <p className="text-gray-600">
                 One of the biggest advantages of a petrol engine is that it does not depend on electricity to work. This machine can be used by farmers in rural areas without worrying about the power supply. This makes them highly practical and dependable for fieldwork, ensuring that farming activities continue without delays. 
             </p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Increases Work Efficiency</h3>
-            <p class="text-gray-600">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">Increases Work Efficiency</h3>
+            <p className="text-gray-600">
                 It does not matter if your farm is flat or if it has a lot of hills. A portable gasoline pump can be used anywhere you want on your farm. You can take a gasoline pump to any place on your farm. A gasoline pump is not hard to use. They are very useful for people who have farms because they work without electricity and can move water quickly.
             </p>
           </div>
         </div>
  
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4"> Why Choose Mechnova Machines </h2>
-        <p class="text-gray-700 mb-4 leading-relaxed">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Why Choose Mechnova Machines </h2>
+        <p className="text-gray-700 mb-4 leading-relaxed">
             Mechnova Machines is famous for its engines that are made for farming in India. These engines are made to last and easy to use. Always give the same result, which makes them perfect for farming and watering crops.
         </p>
-        <p class="text-gray-700 mb-4 leading-relaxed">
+        <p className="text-gray-700 mb-4 leading-relaxed">
             A Mechnova petrol engine can be used for things so farmers can get the most out of a machine. Mechnova Machines are great because they can power a water pump or a tiller and always give results. Mechnova Machines are really good at helping farmers with their work.
         </p>
       
-        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
-        <p class="text-gray-700 leading-relaxed">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Conclusion</h2>
+        <p className="text-gray-700 leading-relaxed">
             A gas engine is really important for farmers these days. It helps them use all sorts of machines easily. When you pick the gas engine, it works better and lasts longer. This means farming is easier and more efficient. You get results when you use a good gas engine for farming.
         </p>
-        <p class="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 leading-relaxed">
             With trusted options like Mechnova Machines, farmers can invest in a reliable engine for agriculture and an engine for irrigation that supports multiple tasks. A good petrol engine not only saves time and effort but also helps improve overall farm productivity.
          </p>
       </section>

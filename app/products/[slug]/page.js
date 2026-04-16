@@ -27,6 +27,7 @@ import {
   BrushCutterSEOTop, 
   BrushCutterSEOBottom,
   PowerWeederSEOIntro,
+  PowerWeederSEOBottom,
   GasolineWaterPumpSEOIntro,
   GasolineEngineSEOIntro, 
 } from '@/components/sections/SEOModules'
@@ -297,6 +298,7 @@ export default function ProductSlugPage() {
                 </Link>
               </div>
               {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
+              {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOBottom />}
             </div>
           </div>
         </main>
