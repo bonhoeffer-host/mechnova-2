@@ -31,7 +31,7 @@
             "gasoline-water-pump": {
                 "id": "2",
                 "name": "Gasoline Water Pump",
-                "detail": "no",
+                "detail": "yes",
                 "image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp"
             },
             "gasoline-engine": {

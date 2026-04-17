@@ -258,5 +258,101 @@
         "answerEn": "Yes, equipped with a powerful engine and sharp blades, it can easily cut thick logs and branches."
       }
     ]
+  },
+  "gasoline-water-pump": {
+    "id": "4",
+    "name": "",
+    "nameEn": "Gasoline Water Pump: A Reliable Solution for Farm Irrigation",
+    "description": "",
+    "descriptionEn": "Gasoline water pumps for irrigation and drainage",
+    "category": "agro-industrial",
+    "hero_image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
+    "warranty": "",
+    "warrantyEn": "6 Months",
+    "models": [
+      {
+        "code": "MWP1.5X1.5SA",
+        "name": "",
+        "nameEn": "GASOLINE WATER PUMP",
+        "metaTitle": "GASOLINE WATER PUMP MWP1.5X1.5SA - Mechnova Machines",
+        "metaDescription": "",
+        "image": "/mechnova/products/gasoline-water-pump/MWP1.5X1.5SA.webp",
+        "leaflet_image":  "/testing/MT900GA-208CC.jpg",
+        "specifications": "",
+        "specificationsEn": "Pump type: Self-priming\nMaximum power: 4.0 HP, 4-stroke\nStarting system: Recoil\nMaximum pumping capacity: 15,000 liters per hour\nSuction diameter: 1.5 inch\nDischarge diameter: 1.5 inch\nTotal lift: 26 Meters\nSuction height: 6 Meters\nFuel tank size: 2 Liters",
+        "heading":"Gasoline Water Pump MWP1.5X1.5SA – Efficient Water Transfer Solution",
+        "subHeading":"The MWP1.5X1.5SA Gasoline Water Pump is a reliable and compact machine designed for quick and efficient work. It is powered by a strong 4 HP 4-stroke engine, which delivers consistent performance for irrigation, water lifting, and drainage tasks. The machine has a maximum pumping capacity of 15000 liters per hour, which makes it suitable for farms, gardens, and small agriculture setups. It can be easily started by users without much effort, and its self-priming feature ensures easy operation. \n\n This water pump is made to be easy to use. It always works the same way. It has an opening to take in water and to send out water so you get a steady flow of water for various agricultural operations. The pump can lift water high up to 26 meters, and it can take in water from 6 meters deep, which is great for getting water from wells, ponds, or tanks. To start the water pump, you just need to pull a rope, and it starts and is equipped with a big enough fuel tank that holds 2 liters of fuel so you can use it for a long time without stopping to refill it. The gasoline pump is built to last so you can use it every day. ",
+        "nextSubHeading":"In conclusion, the MWP1.5X1.5SA Gasoline Water Pump is a smart solution for farmers who are looking for a water transfer machine. It offers a good balance of portability, power, and ease of use. With the help of this water pump, farmers can save their time and effort, making their daily schedule tasks more efficient and manageable.",
+        "features": [
+          ""
+        ],
+        "featuresEn": [
+          "Self-priming pump for quick and easy water operation",
+          "Has high pumping capacity up to 15,000 liters per hour",
+          "Recoil start system for simple and quick starting",
+          "Compact design for easy handling and transport",
+          "2-liter fuel tank for longer continuous operation",
+          "A 4.0 HP engine delivers strong and reliable performance"
+        ]
+      },
+      {
+        "code": "MWP3X3SA",
+        "name": "",
+        "nameEn": "GASOLINE WATER PUMP",
+        "metaTitle": "GASOLINE WATER PUMP MWP3X3SA - Mechnova Machines",
+        "metaDescription": "",
+        "image": "/mechnova/products/gasoline-water-pump/MWP3X3SA.webp",
+        "leaflet_image":  "/testing/MT900G-208CC.jpg",
+        "specifications": "",
+        "specificationsEn": "Pump type: Self-priming\nMaximum power: 7.0 HP, 4-stroke\nStarting system: Recoil\nMaximum pumping capacity: 55,000 liters per hour\nSuction diameter: 3 inches\nDischarge diameter: 3 inches\nTotal lift: 28 Meters\nSuction height: 8 Meters\nFuel tank size: 3.6 Liters",
+         "heading":"Gasoline Water Pump MWP3X3SA – High Capacity Water Pump for Agriculture ",
+        "subHeading":"The MWP3X3SA Gasoline Water Pump is a high capacity machine which has the ability to do heavy duty tasks of water transfer and irrigation needs. As the machine is equipped with a powerful 7 HP 4 - stroke engine, it provides uninterrupted and consistent performance, making it a perfect fit for large farms agricultural operations. It has a massive pumping capacity of up to 55000 liters per hour, this shows that the pump is suitable for handling large volumes of water efficiently. Without any complications users can begin their work quickly. \n\n The pump is designed to work for long working hours and in demanding situations. It comes with a 3-inch suction and discharge diameter, which allows a high flow rate for faster water movement. This water pump can easily extract water from deep sources such as canals, wells, and ponds as it has a suction height of 8 meters. The recoil start system ensures easy starting, while the 3.6-liter fuel tank supports extended operation without frequent refueling.",
+        "nextSubHeading":"In conclusion, the MWP3X3SA Gasoline Water Pump is a smart and powerful solution for large scale water management. Farmers who require efficient irrigation and water transfer then this machine proves to be a valuable asset because of its high performance, durable build, and easy operation. Overall productivity and efficiency of the farms improves as the machine saves time and effort.",
+        "features": [
+          ""
+        ],
+        "featuresEn": [
+          "High-power 7.0 HP engine for heavy-duty performance",
+          "Self-priming pump for quick and easy operation",
+          "Large pumping capacity up to 55,000 liters per hour",
+          "Suction depth up to 8 meters for deep water sources",
+          "Recoil start system for simple and quick starting",
+          "Strong build for reliable long-term usage"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "",
+        "questionEn": "What is the main use of a gasoline water pump?",
+        "answer": "",
+        "answerEn": "A water pump is especially designed for transferring water, irrigation purposes, and drainage in farms, gardens, and small agricultural setups."
+      },
+      {
+        "question": "",
+        "questionEn": "Can it draw water from deep sources?",
+        "answer": "",
+        "answerEn": "Yes, it has a suction height of up to 6 meters, making it a suitable machine to extract water from ponds, tanks, and wells."
+      },
+      {
+        "question": "",
+        "questionEn": "What is the warranty period of the Mechnova Gasoline Water Pump?",
+        "answer": "",
+        "answerEn": "The Mechnova Gasoline Water Pump comes with a warranty of 6 months."
+      },
+      {
+        "question": "",
+        "questionEn": "Does the water pump get started easily and quickly?",
+        "answer": "",
+        "answerEn": "Yes, the machine has an easy recoil start system that allows quick and simple starting."
+      },
+      {
+        "question": "",
+        "questionEn": "How much water can be pumped by the machine in 1 hour?",
+        "answer": "",
+        "answerEn": "The machine can pump up to 15000 liters of water in 1 hour, depending on the working conditions."
+      }
+    ]
   }
 }
