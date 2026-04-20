@@ -343,7 +343,7 @@ export const PowerWeederSEOBottom = () => (
       </section>
 );
 export const GasolineWaterPumpSEOIntro = () => (
-  <section className="max-w-7xl mx-auto px-4 py-10">
+  <section className="max-w-7xl mx-auto px-4 pt-10">
 
         <p className="text-gray-700 mb-6 leading-relaxed">
             To do successful farming, water management plays a crucial role. Whether it be irrigation, water transfer, or drainage, using the right machine makes all the difference. To move water efficiently across the fields, a gasoline water pump is the most effective tool. A water pump is an important tool where there is an absence of electricity or it is limited or unavailable. Its unique portable design and powerful engine manage water supply without depending on fixed power resources. 
