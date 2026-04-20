@@ -29,6 +29,7 @@ import {
   PowerWeederSEOIntro,
   PowerWeederSEOBottom,
   GasolineWaterPumpSEOIntro,
+  GasolineWaterPumpSEOBottom,
   GasolineEngineSEOIntro, 
 } from '@/components/sections/SEOModules'
 
@@ -185,7 +186,6 @@ export default function ProductSlugPage() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
-            {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOIntro />}
             {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOIntro />}
             <div className="max-w-5xl mx-auto flex flex-col gap-12 mt-10">
               {oldProductData.models && oldProductData.models.length > 0 ? (
@@ -270,6 +270,7 @@ export default function ProductSlugPage() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
+            {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOIntro />}
             {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOIntro />}
             <div className="mt-10">
               <div className="mb-8">
@@ -298,6 +299,7 @@ export default function ProductSlugPage() {
                 </Link>
               </div>
               {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
+              {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOBottom />}
               {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOBottom />}
             </div>
           </div>

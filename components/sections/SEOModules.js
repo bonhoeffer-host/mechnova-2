@@ -397,7 +397,10 @@ export const GasolineWaterPumpSEOIntro = () => (
             </p>
           </div>
         </div>
-      
+      </section>
+);
+export const GasolineWaterPumpSEOBottom = () => (
+  <section className="max-w-7xl mx-auto px-4 py-10">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4"> How to Choose the Right Water Pump? </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
             When you are trying to find the water pump for your farm, you need to think about a few things. You have to consider where the water is coming from, how much water you need to move, and how big your field is. You also need to check how powerful the engine is, how well the pump is made, and if it is easy to fix if something goes wrong. If you pick a brand like Mechnova, you can be sure that the water pump will last a long time, work well, and be good for your farm.
