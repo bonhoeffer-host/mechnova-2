@@ -31,6 +31,7 @@ import {
   GasolineWaterPumpSEOIntro,
   GasolineWaterPumpSEOBottom,
   GasolineEngineSEOIntro, 
+  GasolineEngineSEOBottom, 
 } from '@/components/sections/SEOModules'
 
 function ModelCard({ slug, model }) {
@@ -186,7 +187,6 @@ export default function ProductSlugPage() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
-            {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOIntro />}
             <div className="max-w-5xl mx-auto flex flex-col gap-12 mt-10">
               {oldProductData.models && oldProductData.models.length > 0 ? (
                 oldProductData.models
@@ -272,6 +272,7 @@ export default function ProductSlugPage() {
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
             {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOIntro />}
             {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOIntro />}
+            {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOIntro />}
             <div className="mt-10">
               <div className="mb-8">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#0072ce] text-center mb-2">{t('home.productsPage.availableModels')}</h2>
@@ -301,6 +302,7 @@ export default function ProductSlugPage() {
               {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
               {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOBottom />}
               {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOBottom />}
+              {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOBottom />}
             </div>
           </div>
         </main>

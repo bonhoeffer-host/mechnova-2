@@ -37,7 +37,7 @@
             "gasoline-engine": {
                 "id": "3",
                 "name": "Gasoline Engine",
-                "detail": "no",
+                "detail": "yes",
                 "image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp"
             }
         }

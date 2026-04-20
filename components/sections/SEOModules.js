@@ -413,7 +413,7 @@ export const GasolineWaterPumpSEOBottom = () => (
       </section>
 );
 export const GasolineEngineSEOIntro = () => (
-  <section className="max-w-7xl mx-auto px-4 py-10">
+  <section className="max-w-7xl mx-auto px-4 pt-10">
         <p className="text-gray-700 mb-6 leading-relaxed">
             A petrol engine, also known as a gas engine, is an important agricultural tool in modern farming. It is commonly used in machines like power weeders, water pumps, sprayers, and other sorts of agricultural equipment. In today’s time, farmers prefer petrol engines because they are easy to use, provide smooth and consistent performance, and require less maintenance. 
         </p>
@@ -468,7 +468,10 @@ export const GasolineEngineSEOIntro = () => (
             </p>
           </div>
         </div>
- 
+      </section>
+);
+export const GasolineEngineSEOBottom = () => (
+  <section className="max-w-7xl mx-auto px-4 py-10">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Why Choose Mechnova Machines </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
             Mechnova Machines is famous for its engines that are made for farming in India. These engines are made to last and easy to use. Always give the same result, which makes them perfect for farming and watering crops.
