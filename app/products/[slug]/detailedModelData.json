@@ -7,7 +7,7 @@
     "descriptionEn": "Power Weeder for soil preparation",
     "category": "agro-industrial",
     "hero_image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp",
-    "banner_image": "/mechnova/banner/banner-m.webp",
+    "banner_image": "/mechnova/banner/banner-power-weeder.webp",
     "warranty": "6 meses",
     "warrantyEn": "6 months",
     "models": [
@@ -108,7 +108,7 @@
     "descriptionEn": "Professional brush cutters for vegetation management",
     "category": "gardening-forestry",
     "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
-    "banner_image": "/mechnova/banner/banner-m.webp",
+    "banner_image": "/mechnova/banner/banner-brush-cutter.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
     "models": [
@@ -197,7 +197,7 @@
     "descriptionEn": "Professional chainsaws for cutting and pruning",
     "category": "gardening-forestry",
     "hero_image": "/mechnova/banner/banner-m.webp",
-    "banner_image": "/mechnova/banner/banner-m.webp",
+    "banner_image": "/mechnova/banner/banner-chainsaw.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
     "models": [
@@ -267,7 +267,7 @@
     "descriptionEn": "Gasoline water pumps for irrigation and drainage",
     "category": "agro-industrial",
     "hero_image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp",
-    "banner_image": "/mechnova/banner/banner-m.webp",
+    "banner_image": "/mechnova/banner/banner-gasoline-water-pump.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
     "models": [
@@ -363,7 +363,7 @@
     "descriptionEn": "Gasoline engines for agricultural and industrial applications",
     "category": "agro-industrial",
     "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
-    "banner_image": "/mechnova/banner/banner-m.webp",
+    "banner_image": "/mechnova/banner/banner-engine.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
     "models": [
