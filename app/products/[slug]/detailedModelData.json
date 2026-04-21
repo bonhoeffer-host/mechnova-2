@@ -6,10 +6,12 @@
     "description": "Cultivadores de gasolina para preparación de suelos",
     "descriptionEn": "Power Weeder for soil preparation",
     "category": "agro-industrial",
-    "hero_image": "/mechnova/banner/banner-power-weeder.webp",
-    "banner_image": "/mechnova/banner/banner-power-weeder.webp",
+    "hero_image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
     "warranty": "6 meses",
     "warrantyEn": "6 months",
+        "meta_title":"Best Power Weeder in India: 7 HP Petrol Tiller Guide",
+    "meta_description":"Discover the best power weeder in India. Learn about 7 HP petrol tillers, features, benefits, and how to choose the right machine for farming.",
     "models": [
       {
         "code": "MT900GA-208CC",
@@ -108,9 +110,11 @@
     "descriptionEn": "Professional brush cutters for vegetation management",
     "category": "gardening-forestry",
     "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
-    "banner_image": "/mechnova/banner/banner-brush-cutter.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
+        "meta_title":"Brush Cutter Machine: Best Grass Cutting Tool for Farming",
+    "meta_description":"Explore brush cutter machines for farming. Learn about petrol brush cutters, backpack and side pack types, and efficient grass cutting tools.",
     "models": [
       {
         "code": "MBC37SC",
@@ -196,10 +200,12 @@
     "description": "",
     "descriptionEn": "Professional chainsaws for cutting and pruning",
     "category": "gardening-forestry",
-    "hero_image": "/mechnova/banner/banner-chainsaw.webp",
-    "banner_image": "/mechnova/banner/banner-chainsaw.webp",
+    "hero_image": "/mechnova/banner/banner-m.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
+    "meta_title":"Chainsaw Machine: Best Petrol Wood Cutting Machine in India",
+    "meta_description":"Explore the best chainsaw machine in India. Discover petrol engine wood cutting machines for tree cutting, farming, and heavy-duty use.",
     "models": [
       {
         "code": "MCS58A-22SN",
@@ -266,10 +272,12 @@
     "description": "",
     "descriptionEn": "Gasoline water pumps for irrigation and drainage",
     "category": "agro-industrial",
-    "hero_image": "/mechnova/banner/banner-gasoline-water-pump.webp",
-    "banner_image": "/mechnova/banner/banner-gasoline-water-pump.webp",
+    "hero_image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
+        "meta_title":"Best Gasoline Water Pump for Agriculture in India",
+    "meta_description":"Explore gasoline water pumps for agriculture. Learn features, uses, and why Mechnova Machines offer reliable water pump solutions for farms.",
     "models": [
       {
         "code": "MWP1.5X1.5SA",
@@ -362,10 +370,12 @@
     "description": "",
     "descriptionEn": "Gasoline engines for agricultural and industrial applications",
     "category": "agro-industrial",
-    "hero_image": "/mechnova/banner/banner-engine.webp",
-    "banner_image": "/mechnova/banner/banner-engine.webp",
+    "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
+    "banner_image": "/mechnova/banner/banner-m.webp",
     "warranty": "",
     "warrantyEn": "6 Months",
+        "meta_title":"Best Petrol Engine for Agriculture and Irrigation in India",
+    "meta_description":"Explore the best petrol gasoline engines for agriculture and irrigation. Learn features, uses, and why Mechnova Machines engines are reliable.",
     "models": [
       {
         "code": "ME30A",
