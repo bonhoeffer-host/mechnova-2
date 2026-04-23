@@ -39,6 +39,12 @@
                 "name": "Gasoline Engine",
                 "detail": "yes",
                 "image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp"
+            },
+            "gasoline-tiller": {
+                "id": "4",
+                "name": "Gasoline Tiller",
+                "detail": "yes",
+                "image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp"
             }
         }
     }

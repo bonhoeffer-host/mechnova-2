@@ -855,5 +855,32 @@
                 "specifications": "Maximum power: 3.3 KW\nNominal power: 3.0 KW\nStator coil: 100% Copper\nVoltage: 220V - 50Hz\nEngine: 149cc - 6.5HP, Gasoline, 4-Stroke\nAutonomy at 50% load: 6.5 Hours\nFuel tank capacity: 4.3 Liters\nStarting system: Recoil\nOil reservoir capacity: 350 ml"
             }
         ]
+    },
+        "gasoline-tiller":{
+        "id": "6",
+        "name": "Gasoline Tiller",
+        "category": "agro-industrial",
+        "detail": "yes",
+        "description": "Gasoline tillers for soil preparation",
+        "hero_image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp",
+        "error_image": "/mechnova/products/gasoline-tiller/BT900GA-208CC.webp",
+        "models": [
+            {
+                "code": "MT900GA-208CC",
+                "name": "POWER WEEDER",
+                "id": "1", 
+                "warranty": "6 Months",
+                "image": "/mechnova/products/gasoline-tiller/MT900GA-208CC.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 212CC\nTillage Cultivator\nHandlebar Adjustable in Height and Rotation\nCutting Width Up to 900 mm\nTillage Depth Up to 100 mm\nWith Forward and Reverse Speed\nFuel Tank Capacity: 3.6 Liters\nTransmission by Gearbox, with PTO\nManual Recoil Start"
+            },
+            {
+                "code": "MT900GA1-208CC",
+                "name": "POWER WEEDER",
+                "id": "2", 
+                "warranty": "6 Months",
+                "image": "/mechnova/products/gasoline-tiller/MT900GA1-208CC.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 212CC\nTillage Cultivator\nHandlebar Adjustable in Height and Rotation\nCutting Width Up to 900 mm\nTillage Depth Up to 100 mm\nWith Forward and Reverse Speed\nFuel Tank Capacity: 3.6 Liters\nTransmission by Gearbox, with PTO\nManual Recoil Start"
+            }
+        ]
     }
 }

@@ -32,6 +32,8 @@ import {
   GasolineWaterPumpSEOBottom,
   GasolineEngineSEOIntro, 
   GasolineEngineSEOBottom, 
+  GasolineTillerSEOIntro,
+  GasolineTillerSEOBottom,
 } from '@/components/sections/SEOModules'
 
 function ModelCard({ slug, model }) {
@@ -272,6 +274,7 @@ export default function ProductSlugPage() {
             {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
             {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOIntro />}
             {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOIntro />}
+            {slug === 'gasoline-tiller' && locale === 'en' && <GasolineTillerSEOIntro />}
             {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOIntro />}
             <div className="mt-10">
               <div className="mb-8">
@@ -302,6 +305,7 @@ export default function ProductSlugPage() {
               {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
               {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOBottom />}
               {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOBottom />}
+              {slug === 'gasoline-tiller' && locale === 'en' && <GasolineTillerSEOBottom />}
               {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOBottom />}
             </div>
           </div>
