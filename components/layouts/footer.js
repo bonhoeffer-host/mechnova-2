@@ -58,7 +58,7 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-2">{t('footer.contact')}</h3>
             <p className="text-gray-700">{t('footer.phone') || 'Phone'}: <Link href="tel:+917428642333" className="hover:text-[#005FA3]">+91 7428642333</Link></p>
             <p className="text-gray-700">{t('footer.email') || 'Email'}: <Link href="mailto:info@mechnovamachines.com" className="hover:text-[#005FA3]">info@mechnovamachines.com</Link></p>
-            <p className="text-gray-700">{t('footer.address') || 'Address'}: 2nd Floor, Plot No. 756, Udyog Vihar Phase V, Gurugram, Haryana 122015</p>
+            <p className="text-gray-700">{t('footer.address') || 'Address'}: 2nd Floor, Plot No. 756, Udyog Vihar Phase V, Gurugram, Haryana 122016</p>
         </div>
       </div>
         <div className="border-t border-gray-300 mt-8 pt-4 px-4 mx-10 flex flex-col md:flex-row justify-between items-center md:px-0">
