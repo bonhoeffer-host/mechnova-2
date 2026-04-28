@@ -79,8 +79,15 @@ const categoryData = locale === 'en'
                   <h2 className="text-3xl md:text-5xl text-center font-semibold text-[#0072ce]">{category.name}</h2>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                  {products.map(product => (
-                    <ProductCard key={product.key} categoryKey={category.key} productKey={product.key} product={product} />
+                 {products.map(product => (
+                    product.key !== "gasoline-tiller" && (
+                      <ProductCard
+                        key={product.key}
+                        categoryKey={category.key}
+                        productKey={product.key}
+                        product={product}
+                      />
+                    )
                   ))}
                 </div>
               </section>

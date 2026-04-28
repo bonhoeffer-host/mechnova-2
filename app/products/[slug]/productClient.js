@@ -277,11 +277,12 @@ export default function ProductSlugPage() {
             {slug === 'gasoline-tiller' && locale === 'en' && <GasolineTillerSEOIntro />}
             {slug === 'gasoline-engine' && locale === 'en' && <GasolineEngineSEOIntro />}
             <div className="mt-10">
+              {!(slug === 'gasoline-tiller' && locale === 'en') && (
               <div className="mb-8">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#0072ce] text-center mb-2">{t('home.productsPage.availableModels')}</h2>
                 <p className="text-gray-600 text-center">{t('home.productsPage.chooseFromSelection')}</p>
               </div>
-
+             )}
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {productData.models.map((model, index) => (
                   <ModelCard key={model.code || index} slug={slug} model={model} />
@@ -295,13 +296,14 @@ export default function ProductSlugPage() {
                   <ChainsawSEOConclusion />
                 </div>
               )}
-
+              {!(slug === 'gasoline-tiller' && locale === 'en') && (
               <div className="mt-12 text-center">
                 <Link href="/products" className="inline-flex items-center gap-2 text-[#0072ce] hover:text-blue-700 font-medium">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
                   {t('home.productsPage.backToProducts')}
                 </Link>
               </div>
+              )}
               {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
               {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOBottom />}
               {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOBottom />}

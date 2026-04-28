@@ -78,7 +78,7 @@ export default function ModelDetailClient({ slug, model }) {
             </p>
           </div>  
            {/* Model Leaflet Images */}
-<div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-4 mb-8">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-4">
 
   {/* LEFT — YOUTUBE VIDEO */}
   <div className="w-full">
@@ -106,9 +106,9 @@ export default function ModelDetailClient({ slug, model }) {
 
 </div> 
           <div className="mx-auto text-center">
-            <h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-2">
+            {/*<h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-2">
               {productName}
-            </h3>
+            </h3>*/}
             {currentModel.nextSubHeading && (
             <p className="text-base text-gray-600 mb-2">
               {currentModel.nextSubHeading}
