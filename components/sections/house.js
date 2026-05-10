@@ -17,13 +17,13 @@ function House() {
       buttonTo: "to-[#00A656]"
     },
     {
-      name: "Stronwell",
-      description: t('home.house.indianDivision'), 
-      url: "https://stronwell.com",
-      logo: "/logos/stronwell_logo.png",
-      logoColor: "text-[#E65100]",
-      buttonFrom: "from-[#FF7A00]",
-      buttonTo: "to-[#FF0000]"
+      name: "Stevron Tools", 
+      description: t('home.house.hardwareDivision'),
+      url: "https://stevrontools.com",
+      logo: "/logos/stevron_black_logo.png",
+       logoColor: "text-black",
+      buttonFrom: "from-[#777]",
+      buttonTo: "to-[#000]"
     },
     {
       name: "Mechnova Machines",
@@ -117,13 +117,11 @@ function House() {
   </div>
 
   {/* Hardware Division Heading */}
-  <div className="text-center mt-24 mb-12">
+ {/* <div className="text-center mt-24 mb-12">
     <h2 className="text-5xl font-extrabold text-white">
       {t('home.house.hardHeading')}
     </h2>
   </div>
-
-  {/* Hardware Cards */}
   <div className="max-w-xl mx-auto">
 
     {hard.map((company, index) => (
@@ -144,7 +142,7 @@ function House() {
               }}
             />
 
-            {/* Fallback initials */}
+       
             <div 
               style={{ display: "none" }}
               className="text-4xl font-extrabold text-gray-700"
@@ -168,7 +166,7 @@ function House() {
       </Link>
     ))}
 
-  </div>
+  </div>*/}
 
 </section>
 
