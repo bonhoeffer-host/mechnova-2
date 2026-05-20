@@ -38,7 +38,7 @@ function Footer() {
                 <Link href="https://blog.mechnovamachines.in" target="_blank" className="hover:text-[#005FA3] transition">{t('header.blog')}</Link>
                 <Link href="/dealer" className="hover:text-[#005FA3] transition">{t('header.dealer')}</Link>
                   <Link href="/warranty" className="hover:text-[#005FA3] transition">Warranty Registration</Link>
-                <Link href="/contact" className="hover:text-[#005FA3] transition">{t('header.contact')}</Link>
+               
             </nav>
             <div className="flex flex-row gap-4 mt-10 justify-center">
                 <Link href="https://www.facebook.com/mechnovamachinesindia" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
