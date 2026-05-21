@@ -40,7 +40,7 @@ function ContactPage() {
         {/* Hero Section */}
         <section className="relative w-full flex items-center justify-center overflow-hidden mb-12">
           <img
-            src="/mechnova/banner/banner-m.webp"
+            src="/mechnova/banner/contact-us-banner.webp"
             alt="Contact Us Hero"
             className="object-cover object-center"
           />
