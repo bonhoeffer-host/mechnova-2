@@ -43,7 +43,7 @@ function DealerPage() {
         <div className="block" style={{ height: "4.5em" }} aria-hidden="true" />
         <section className="relative w-full flex items-center justify-center overflow-hidden mb-14">
           <img
-            src="/mechnova/banner/banner-m.webp"
+            src="/mechnova/banner/dealer-banner.webp"
             alt="Become a Dealer Hero"
             className="w-full h-72 md:h-[22rem] lg:h-[26rem] object-cover"
           />

@@ -125,7 +125,7 @@
         "image": "/mechnova/products/brushcutter/BBC26DA.webp",
         "leaflet_image":  "/testing/MT900GA-208CC.jpg",
         "specifications": "",
-        "specificationsEn": "Engine: Gasoline, 4-Stroke, 37.7 CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle",
+        "specificationsEn": "Engine: Gasoline, 4-Stroke, 37.7 CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Start\nHandle Type:Bicycle Handle",
         "heading":"Brush  Cutter  MBC37SC  –  Efficient  4-Stroke  Grass  Cutting Machine",
         "subHeading":"The  MBC37SC  is  a  reliable  and  efficient  machine  designed  for  cutting  grass,  light  bushes, and weeds  with  absolute  ease.  It  runs  a  4-stroke  engine,  which  delivers  1.35  HP  power  output, making  it  suitable  for  agricultural  activities.  Unlike  traditional  machines,  this  machine  offers  a 4-stroke  engine,  which  offers  smoother  operation,  less  vibration,  and  better  fuel  efficiency.  This makes it a perfect fit for farmers who want less noise and effort with consistent performance. \n\n The  machine  is  well  designed  to  give  better  control  and  reduce  fatigue  during  the  operations.  It has  a  D-shaped  handle  that  provides  a  firm  grip,  which  makes  it  easier  for  the  user  to  guide  the machine  and  control  it  while  working.  The  machine  is  capable  of  handling  regular  usage  without any  wear  and  tear.  As  the  machine  has  a  manual  recoil  start  system,  the  machine  gets  started quickly without any complication.",
         "nextSubHeading":"Overall,  the  MBC37SC  brush  cutter  is  a  good  option  for  a  routine  grass-cutting  machine.  The machine  is  an  ideal  pick  for  farmers  who  work  on  small  farms  and  for  garden  use,  as  it  provides steady  performance.  If  you  are  looking  for  a  machine  that  is  easy  to  manage  and  delivers consistent results, this brush cutter is a practical and efficient choice.",
@@ -133,7 +133,7 @@
           ""
         ],
         "featuresEn": [
-          "Comfortable D-shaped handle for better grip and contro",
+          "Comfortable D-shaped handle for better grip and control",
           "4-stroke engine for smoother and quieter operation",
           "Strong shaft design for stable and steady performance",
           "Compact design for easy handling and movement",
@@ -162,6 +162,33 @@
           "Strong shaft construction for better stability during use",
           "The D-handle provides better balance and control",
           "Reinforced exhaust increases durability and engine life."
+        ]
+      },
+      {
+        "code": "MBC43A",
+        "name": "",
+        "nameEn": "Brush Cutter",
+        "metaTitle": "Brush Cutter MBC43A - Mechnova Machines",
+        "metaDescription": "",
+        "image": "/mechnova/products/brushcutter/MBC43A.webp",
+        "leaflet_image":  "/testing/MT900GA-208CC.jpg",
+        "specifications": "",
+        "specificationsEn": "Engine: Gasoline, 2-Stroke, 43CC \nMaximum Power: 1.7 HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle",
+        "heading":"Brush Cutter MBC43A - Powerful 2-Stroke for cutting grasses and weeds",
+        "subHeading":"The MBC43A Brush Cutter is an efficient and powerful tool capable of cutting all thick grasses, weeds, and light bushes effectively. The machine comes with a 43 CC 2-stroke gasoline engine that generates the maximum of 1.7 HP to be the perfect tool for normal agricultural and land maintenance applications. The machine produces a higher cutting ability but smooth running in every field condition. \n\n It is equipped with a bicycle-type handle which gives more control and stability while operating. The ergonomic handles offer much comfort while handling the machine, even for long working hours. Farmers and workers will find it stable and highly functional for usage on farms, gardens, roadsides and open land cleaning. Its compact and sturdy built structure is also a factor to be considered as it can be used for daily applications with a good ease of use and movement in the farming area.",
+        "nextSubHeading":"Generally, it is a valuable tool that is well-suited for farmers who seek a grass-cutting machine that will perform well. With the increased cutting ability and great ease of use, the MBC43A Brush Cutter is ideal for both agricultural and home applications.",
+        "features": [
+          ""
+        ],
+        "featuresEn": [
+          "Powerful 43CC 2-stroke gasoline engine",
+          "Delivers 1.7 HP output for efficient cutting performance",
+          "Bicycle handle design for better balance and operator comfort",
+          "Supports both 40T blade and trimmer head applications",
+          "Suitable for cutting grass, weeds, and light bushes",
+          "Manual recoil start system for easy machine startup",
+          "Durable and compact design for regular agricultural use",
+          "Ideal for farms, gardens, roadside cleaning, and land maintenance"
         ]
       }
     ],
