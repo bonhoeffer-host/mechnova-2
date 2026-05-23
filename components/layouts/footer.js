@@ -20,7 +20,7 @@ function Footer() {
             {/* Download Catalog Button */}
             <div className="flex sm:justify-start justify-center">
                 <Link 
-                    href="https://catalog.mechnovamachines.com" 
+                    href="https://catalog.mechnovamachines.in" 
                     target="_blank"
                     className="inline-flex items-center gap-2 bg-[#0072ce] hover:bg-[#005FA3] text-white font-semibold px-6 py-3 rounded-lg transition-all shadow-md hover:shadow-lg"
                 >
