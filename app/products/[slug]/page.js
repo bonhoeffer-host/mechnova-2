@@ -10,6 +10,7 @@ const { slug } = await params;
   }
 }
 
-export default function Page({ params }) {
-  return <ProductClient slug={params.slug} />
+export default async function Page({ params }) {
+  const { slug } = await params;
+  return <ProductClient slug={slug} />
 }
