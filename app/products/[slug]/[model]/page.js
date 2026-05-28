@@ -29,7 +29,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ModelDetailPage({ params }) {
-  const { slug, model } = await params
+  const resolvedParams = await params
+  const { slug, model } = resolvedParams
   
   // Check if product exists
   if (!detailedModelData[slug]) {
