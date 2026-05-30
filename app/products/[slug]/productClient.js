@@ -197,7 +197,7 @@ export default function ProductSlugPage() {
 
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
-            {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
+            {(slug === 'brushcutter' || slug === 'sprayer') && locale === 'en' && <BrushCutterSEOTop />}
             <div className="max-w-5xl mx-auto flex flex-col gap-12 mt-10">
               {oldProductData.models && oldProductData.models.length > 0 ? (
                 oldProductData.models
@@ -300,7 +300,7 @@ export default function ProductSlugPage() {
                 {t('home.productsPage.backToProductsButton')}
               </Link>
             </div>
-            {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
+            {(slug === 'brushcutter' || slug === 'sprayer') && locale === 'en' && <BrushCutterSEOBottom />}
           </div>
         </main>
         <Footer />
@@ -331,7 +331,7 @@ export default function ProductSlugPage() {
 
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             {slug === 'chainsaw' && locale === 'en' && <ChainsawSEOIntro />}
-            {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOTop />}
+            {(slug === 'brushcutter' || slug === 'sprayer') && locale === 'en' && <BrushCutterSEOTop />}
             {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOIntro />}
             {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOIntro />}
             {slug === 'gasoline-tiller' && locale === 'en' && <GasolineTillerSEOIntro />}
@@ -368,7 +368,7 @@ export default function ProductSlugPage() {
                 </Link>
               </div>
               )}
-              {slug === 'brushcutter' && locale === 'en' && <BrushCutterSEOBottom />}
+              {(slug === 'brushcutter' || slug === 'sprayer') && locale === 'en' && <BrushCutterSEOBottom />}
               {slug === 'gasoline-water-pump' && locale === 'en' && <GasolineWaterPumpSEOBottom />}
               {slug === 'power-weeder' && locale === 'en' && <PowerWeederSEOBottom />}
               {slug === 'gasoline-tiller' && locale === 'en' && <GasolineTillerSEOBottom />}
