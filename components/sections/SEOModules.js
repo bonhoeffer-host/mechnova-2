@@ -593,10 +593,15 @@ export const SprayerSEOTop = () => (
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
-              For applying pesticides, fertilizers, herbicides and plant protection solutions a knapsack sprayer is one of the most essential tools in modern farming. It is especially designed to perform efficient spraying with uniform coverage, helping farmers in reducing manual effort with healthy crop growth.
+              For applying pesticides, fertilizers, herbicides and plant protection solutions a knapsack sprayer is one of 
+the most essential tools in modern farming. It is especially designed to perform efficient spraying with 
+uniform coverage, helping farmers in reducing manual effort with healthy crop growth.
             </p>
             <p className="text-lg text-slate-700">
-              A quality knapsnack sprayer allows you to complete agricultural tasks more efficiently and quickly, whether you are managing a small, medium or large farm field. This machine has now become a necessity. Knapsack sprayers are nowadays a highly preferable machine as it is easy to operate, highly portable, and is suitable for a wide range of agricultural operations.
+             A quality knapsnack sprayer allows you to complete agricultural tasks more efficiently and quickly, 
+whether you are managing a small, medium or large farm field. This machine has now become a 
+necessity. Knapsack sprayers are nowadays a highly preferable machine as it is easy to operate, highly 
+portable, and is suitable for a wide range of agricultural operations. 
             </p>
             <p className="text-lg font-medium text-[#0072ce]">
               Main characteristics of a Knapsack sprayer:
@@ -607,19 +612,23 @@ export const SprayerSEOTop = () => (
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                 <h4 className="font-bold text-[#0072ce] mb-2">Accurate and consistent spray</h4>
-                <p className="text-slate-600 text-sm">It provides a constant spray pressure to cover your crops and distribute your chemicals and fertilizers more evenly for optimum efficiency.</p>
+                <p className="text-slate-600 text-sm">It provides a constant spray pressure to cover your crops and distribute your chemicals and fertilizers 
+more evenly for optimum efficiency.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                 <h4 className="font-bold text-[#0072ce] mb-2">Robust and Long-lasting</h4>
-                <p className="text-slate-600 text-sm">Made out of high-quality materials, knapsack sprayers have been built to support your farming practices with a durable and heavy-duty construction.</p>
+                <p className="text-slate-600 text-sm">Made out of high-quality materials, knapsack sprayers have been built to support your farming practices 
+with a durable and heavy-duty construction. </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                 <h4 className="font-bold text-[#0072ce] mb-2">Comfortable and Ergonomic design</h4>
-                <p className="text-slate-600 text-sm">With comfortable shoulder straps, the sprayer can be used for long hours, decreasing fatigue and improving productivity.</p>
+                <p className="text-slate-600 text-sm">With comfortable shoulder straps, the sprayer can be used for long hours, decreasing fatigue and 
+improving productivity. </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                 <h4 className="font-bold text-[#0072ce] mb-2">Eco-friendly application</h4>
-                <p className="text-slate-600 text-sm">The careful control on spraying limits waste chemicals and provides better crop protection with the minimum use of pesticides and fertilizers.</p>
+                <p className="text-slate-600 text-sm">The careful control on spraying limits waste chemicals and provides better crop protection with the 
+minimum use of pesticides and fertilizers.</p>
               </div>
             </div>
           </div>
@@ -665,11 +674,15 @@ export const SprayerSEOBottom = () => (
       <div className="max-w-4xl mx-auto text-center py-12 border-t border-slate-200">
         <h3 className="text-3xl font-bold text-slate-900 mb-8 italic">Conclusion</h3>
         <p className="text-lg text-slate-600 leading-relaxed mb-10">
-          A knapsack sprayer is an important farm equipment for farmers to conduct crop protection and application of fertilizers easily and conveniently. The advantages of this tool such as convenient use, mobile characteristics and good performance suit various purposes of farms and gardens.
+          A knapsack sprayer is an important farm equipment for farmers to conduct crop protection and 
+application of fertilizers easily and conveniently. The advantages of this tool such as convenient use, 
+mobile characteristics and good performance suit various purposes of farms and gardens. 
         </p>
         <div className="bg-gradient-to-br from-[#0072ce] to-blue-700 text-white p-10 rounded-3xl shadow-xl transform hover:scale-[1.02] transition-transform">
           <p className="text-xl md:text-2xl font-medium leading-relaxed mb-6">
-            Investing a good knapsack sprayer can help farmers to save time and labor as well as enhance farming management, and Mechnova always provides trustworthy devices to help them improve working efficiency and productive farm activity.
+            Investing a good knapsack sprayer can help farmers to save time and labor as well as enhance farming 
+management, and Mechnova always provides trustworthy devices to help them improve working 
+efficiency and productive farm activity. 
           </p>
         </div>
       </div>
