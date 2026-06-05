@@ -41,6 +41,7 @@ export default function ModelDetailClient({ slug, model }) {
   const modelName = locale === 'en' ? (currentModel.nameEn || currentModel.name) : currentModel.name
   const specifications = locale === 'en' ? (currentModel.specificationsEn || currentModel.specifications) : currentModel.specifications
   const features = locale === 'en' ? (currentModel.featuresEn || currentModel.features) : currentModel.features
+  const faqs = currentModel.faqs
   const applications = locale === 'en' ? (currentModel.applicationsEn || currentModel.applications) : currentModel.applications
   const warranty = locale === 'en' ? (productData.warrantyEn || productData.warranty) : productData.warranty
 
