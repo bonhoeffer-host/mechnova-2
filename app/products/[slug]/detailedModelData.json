@@ -624,7 +624,45 @@
           "The weight is less, and it is handy.",
           "It can be used on farm lands, gardens, nurseries, orchards and plantations.",
           "It is good for common farming and gardening."
-        ]
+        ],
+        "faqs": [
+      {
+        "question": "",
+        "questionEn": "What kind of application is the MS35-4S for?",
+        "answer": "",
+        "answerEn": "The MS35-4S is ideal for spraying pesticides, herbicides, fertilizers, and crop nutrients at farms, gardens, orchards, nurseries and plantation areas."
+      },
+      {
+        "question": "",
+        "questionEn": "What are the differences between the MS35-4S and the knapsack sprayer?",
+        "answer": "",
+        "answerEn": "Compared with the backpack type sprayer, the MS35-4S is of portable frame type that allows the sprayer to operate conveniently without the back of the tank and more portable than the knapsack one and it can serve the users who want a ground based spraying device."
+      },
+      {
+        "question": "",
+        "questionEn": "How does the machine move between fields?",
+        "answer": "",
+        "answerEn": "Its simple and lightweight design can make the transporting, storage and field moving convenient."
+      },
+      {
+        "question": "",
+        "questionEn": "Can it be applied in common farming work?",
+        "answer": "",
+        "answerEn": "Sure, MS35-4S is used for the daily farming tasks and has reliable performance during its working life."
+      },
+      {
+        "question": "",
+        "questionEn": "Does it have an equal spraying performance?",
+        "answer": "",
+        "answerEn": "The stable pressure and excellent flowrate are able to supply an equal spraying performance among every crop."
+      },
+      {
+        "question": "",
+        "questionEn": "Can the MS35-4S be used for the small garden and farm?",
+        "answer": "",
+        "answerEn": "MS35-4S is very well fit to small garden and farm, kitchen garden, nursery, orchard and landscape application by its good performance and portability."
+      }
+    ]
       }
     ],
     "faqs": [

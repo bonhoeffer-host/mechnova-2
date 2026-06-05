@@ -221,22 +221,42 @@ export default function ModelDetailClient({ slug, model }) {
               {t('home.productsPage.frequentlyAskedQuestions')}
             </h3>
             <div className="space-y-3 max-w-4xl mx-auto">
-              {productData.faqs.map((faq, index) => (
-                <details key={index} className="group bg-white border border-gray-100 rounded-xl [&_summary::-webkit-details-marker]:hidden hover:shadow-[0_4px_20px_rgb(0,0,0,0.03)] transition-all duration-200">
-                  <summary className="flex justify-between items-center cursor-pointer list-none p-5 font-medium text-gray-800 hover:text-[#0072ce] transition-colors select-none">
-                    <span className="pr-6 text-sm md:text-base">
-                      {locale === 'en' ? faq.questionEn : faq.question}
-                    </span>
-                    <span className="flex-shrink-0 ml-4 relative w-5 h-5 flex items-center justify-center">
-                      <span className="absolute w-4 h-0.5 bg-gray-400 group-open:bg-[#0072ce] transition-colors rounded-full"></span>
-                      <span className="absolute w-0.5 h-4 bg-gray-400 group-open:bg-[#0072ce] group-open:rotate-90 group-open:opacity-0 transition-all duration-300 rounded-full"></span>
-                    </span>
-                  </summary>
-                  <div className="px-5 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-50/50 pt-3">
-                    {locale === 'en' ? faq.answerEn : faq.answer}
-                  </div>
-                </details>
-              ))}
+             {(faqs && faqs.length > 0) ? (
+  faqs.map((faq, index) => (
+    <details key={index} className="group bg-white border border-gray-100 rounded-xl [&_summary::-webkit-details-marker]:hidden hover:shadow-[0_4px_20px_rgb(0,0,0,0.03)] transition-all duration-200">
+      <summary className="flex justify-between items-center cursor-pointer list-none p-5 font-medium text-gray-800 hover:text-[#0072ce] transition-colors select-none">
+        <span className="pr-6 text-sm md:text-base">
+          {locale === 'en' ? faq.questionEn : faq.question}
+        </span>
+        <span className="flex-shrink-0 ml-4 relative w-5 h-5 flex items-center justify-center">
+          <span className="absolute w-4 h-0.5 bg-gray-400 group-open:bg-[#0072ce] transition-colors rounded-full"></span>
+          <span className="absolute w-0.5 h-4 bg-gray-400 group-open:bg-[#0072ce] group-open:rotate-90 group-open:opacity-0 transition-all duration-300 rounded-full"></span>
+        </span>
+      </summary>
+      <div className="px-5 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-50/50 pt-3">
+        {locale === 'en' ? faq.answerEn : faq.answer}
+      </div>
+    </details>
+  ))
+) : (
+  productData?.faqs?.map((faq, index) => (
+    <details key={index} className="group bg-white border border-gray-100 rounded-xl [&_summary::-webkit-details-marker]:hidden hover:shadow-[0_4px_20px_rgb(0,0,0,0.03)] transition-all duration-200">
+      <summary className="flex justify-between items-center cursor-pointer list-none p-5 font-medium text-gray-800 hover:text-[#0072ce] transition-colors select-none">
+        <span className="pr-6 text-sm md:text-base">
+          {locale === 'en' ? faq.questionEn : faq.question}
+        </span>
+        <span className="flex-shrink-0 ml-4 relative w-5 h-5 flex items-center justify-center">
+          <span className="absolute w-4 h-0.5 bg-gray-400 group-open:bg-[#0072ce] transition-colors rounded-full"></span>
+          <span className="absolute w-0.5 h-4 bg-gray-400 group-open:bg-[#0072ce] group-open:rotate-90 group-open:opacity-0 transition-all duration-300 rounded-full"></span>
+        </span>
+      </summary>
+      <div className="px-5 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-50/50 pt-3">
+        {locale === 'en' ? faq.answerEn : faq.answer}
+      </div>
+    </details>
+  ))
+)}
+              
             </div>
           </div>
 
