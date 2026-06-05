@@ -595,7 +595,39 @@
           "Comfortable knapsack design for reduced operator fatigue",
           "Suitable for spraying pesticides, fertilizers, herbicides, and crop nutrients",
           "Ideal for farms, orchards, plantations, and agricultural fields"
-        ]
+        ],
+        "faqs": [
+      {
+        "question": "",
+        "questionEn": "Why is this sprayer suitable for large farms?",
+        "answer": "",
+        "answerEn": "This sprayer has a 25 liter tank capacity with a higher flow rate to cover more area on the field with less refilling. Thus it is suitable for a medium to large-sized farm."
+      },
+      {
+        "question": "",
+        "questionEn": "What are the advantages of using a 4-stroke engine?",
+        "answer": "",
+        "answerEn": "The 4-stroke engine produces lower vibration, uses less fuel, less noise, and operates smoother, so that the farmer gets less fatigued."
+      },
+      {
+        "question": "",
+        "questionEn": "Is this machine comfortable to carry over extended periods of operation?",
+        "answer": "",
+        "answerEn": "Yes, it is designed as a knapsack, which spreads the weight of the machine evenly over the shoulders and the back of the operator."
+      },
+      {
+        "question": "",
+        "questionEn": "Is the MS25BDI-4SB usable in orchards and plantations?",
+        "answer": "",
+        "answerEn": "Yes, this sprayer is perfect for orchards and plantations, vegetable farms, or any other crop where spraying is required regularly."
+      },
+      {
+        "question": "",
+        "questionEn": "How is this sprayer maintained?",
+        "answer": "",
+        "answerEn": "Basic maintenance involves cleaning the tank after application, checking the hose, and cleaning of filters regularly. Regular engine servicing would also help retain its functionality."
+      }
+    ]
       },
       {
         "code": "MS35-4S",
