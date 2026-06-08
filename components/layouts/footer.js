@@ -41,7 +41,7 @@ function Footer() {
                
             </nav>
             <div className="flex flex-row gap-4 mt-10 justify-center">
-                <Link href="https://www.facebook.com/mechnovamachinesindia" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
+                <Link href="https://www.facebook.com/officialmechnova/" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
                     <FaFacebook className="w-10 h-10" />
                 </Link>
                 <Link href="https://www.instagram.com/mechnovamachinesindia" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
