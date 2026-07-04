@@ -134,6 +134,22 @@ export default function ModelDetailClient({ slug, model }) {
               />
             </div>
           </div>
+          {/* Download Catalog Button */}
+              {currentModel.download_pdf_btn && (
+                <div className="flex justify-center mb-16">
+                    <Link 
+                        href={currentModel.download_pdf_btn}
+                        download
+                        target="_blank"
+                        className="inline-flex items-center gap-2 bg-[#0072ce] hover:bg-[#005FA3] text-white font-semibold px-6 py-3 rounded-lg transition-all shadow-md hover:shadow-lg"
+                    >
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Download PDF
+                    </Link>
+                </div>
+                )}
 
 
           {/* Product Image and Description Section */}
