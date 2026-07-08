@@ -1,8 +1,8 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Mechnova Machines – Best Power Weeder Brands in India",
-  description: "Mechnova Machines from the house of Bonhoeffer is the leading and best brand of power weeders, brush cutter, engines, water pumps and chainsaw in India.",
+  title: "Mechnova Machines – Weeders, Brush Cutters, Chainsaws, Water Pumps & Engines",
+  description: "Explore Mechnova Machines for reliable power weeders, brush cutters, chainsaws, water pumps, and petrol engines built for farming, gardening, and agricultural needs in India.",
 };
 
 export default function HomePage() {
