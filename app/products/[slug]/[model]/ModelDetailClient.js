@@ -125,6 +125,7 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
 
           {/* Main Product Content Image (Added Section) */}
+          {!currentModel.download_pdf_btn && (
           <div className="flex justify-center items-center mb-20">
             <div className="w-full max-w-5xl bg-white rounded-2xl shadow-[0_15px_50px_rgba(0,0,0,0.08)] border border-gray-100/60 overflow-hidden group">
               <img
@@ -134,6 +135,7 @@ export default function ModelDetailClient({ slug, model }) {
               />
             </div>
           </div>
+          )}
           {/* Download Catalog Button */}
               {currentModel.download_pdf_btn && (
                 <div className="flex justify-center mb-16">
