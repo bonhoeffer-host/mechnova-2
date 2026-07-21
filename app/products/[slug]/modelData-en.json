@@ -223,7 +223,7 @@
 
    "sprayer":{
         "id": "8",
-        "name": "Knapsack Sprayer",
+        "name": "Sprayer",
         "category": "gardening-forestry",
         "description": "Professional knapsack sprayers for vegetation management",
         "hero_image": "/mechnova/products/sprayer/hero-sprayer.webp",
