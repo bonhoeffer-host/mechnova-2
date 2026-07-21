@@ -19,7 +19,7 @@
             ,
             "sprayer": {
                 "id": "7",
-                "name": "Knapsack Sprayer",
+                "name": "Sprayer",
                 "detail": "yes",
                 "image": "/mechnova/products/sprayer/sprayer.webp"
             }
