@@ -18,6 +18,9 @@ function SparePartsPage() {
   { value: "ME70A", label: "ME70A Petrol Engine" },
   { value: "MT900GA-208CC", label: "MT900GA-208CC Power Weeder" },
   { value: "MT900GA1-208CC", label: "MT900GA1-208CC Power Weeder" },
+  { value: "MDT900GA-173", label: "MDT900GA-173 Power Weeder" },
+  { value: "MT900GAS", label: "MT900GAS Power Weeder" },
+  { value: "MT900GAS1", label: "MT900GAS1 Power Weeder" },
 ];
 
   const { t } = useTranslation();

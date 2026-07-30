@@ -172,6 +172,9 @@ function WarrantyPage() {
                   <option value="ME70A">ME70A Petrol Engine</option>
                   <option value="MT900GA-208CC">MT900GA-208CC Power Weeder</option>
                   <option value="MT900GA1-208CC">MT900GA1-208CC Power Weeder</option>
+                  <option value="MDT900GA-173">MDT900GA-173 Power Weeder</option>
+                  <option value="MT900GAS">MT900GAS Power Weeder</option>
+                  <option value="MT900GAS1">MT900GAS1 Power Weeder</option>
                 </select>
               </div>
 

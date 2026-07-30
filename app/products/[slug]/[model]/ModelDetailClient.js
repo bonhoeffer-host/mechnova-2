@@ -125,11 +125,11 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
 
           {/* Main Product Content Image (Added Section) */}
-          {!currentModel.download_pdf_btn && (
+          {!currentModel.download_pdf_btn && currentModel.leaflet_image_1 && (
           <div className="flex justify-center items-center mb-20">
             <div className="w-full max-w-5xl bg-white rounded-2xl shadow-[0_15px_50px_rgba(0,0,0,0.08)] border border-gray-100/60 overflow-hidden group">
               <img
-                src={currentModel.leaflet_image_1 || "/new2.webp"}
+                src={currentModel.leaflet_image_1}
                 alt="Product Specifications and Features"
                 className="w-full h-auto transition-transform duration-700 ease-out group-hover:scale-[1.01]"
               />

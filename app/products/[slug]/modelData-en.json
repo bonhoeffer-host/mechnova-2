@@ -568,6 +568,30 @@
                 "warranty": "6 Months",
                 "image": "/mechnova/products/gasoline-tiller/MT900GA1-208CC.webp",
                 "specifications": "Engine: Gasoline, 4-Stroke, 212CC\nTillage Cultivator\nHandlebar Adjustable in Height and Rotation\nCutting Width Up to 900 mm\nTillage Depth Up to 100 mm\nWith Forward and Reverse Speed\nFuel Tank Capacity: 3.6 Liters\nTransmission by Gearbox, with PTO\nManual Recoil Start"
+            },
+            {
+                "code": "MDT900GA-173",
+                "name": "POWER WEEDER",
+                "id": "3", 
+                "warranty": "6 Months",
+                "image": "/MDT900GA-173.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 173CC\nTillage Cultivator\nHandlebar Adjustable in Height and Rotation\nCutting Width Up to 900 mm\nTillage Depth Up to 100 mm\nWith Forward and Reverse Speed\nFuel Tank Capacity: 3.6 Liters\nTransmission by Gearbox, with PTO\nManual Recoil Start"
+            },
+            {
+                "code": "MT900GAS",
+                "name": "POWER WEEDER",
+                "id": "4", 
+                "warranty": "6 Months",
+                "image": "/MT900GAS_900-GAS.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 212CC\nTillage Cultivator\nHandlebar Adjustable in Height and Rotation\nCutting Width Up to 900 mm\nTillage Depth Up to 100 mm\nWith Forward and Reverse Speed\nFuel Tank Capacity: 3.6 Liters\nTransmission by Gearbox, with PTO\nManual Recoil Start"
+            },
+            {
+                "code": "MT900GAS1",
+                "name": "POWER WEEDER",
+                "id": "5", 
+                "warranty": "6 Months",
+                "image": "/MT900GAS1_900-GAS1.webp",
+                "specifications": "Engine: Gasoline, 4-Stroke, 212CC\nTillage Cultivator\nHandlebar Adjustable in Height and Rotation\nCutting Width Up to 900 mm\nTillage Depth Up to 100 mm\nWith Forward and Reverse Speed\nFuel Tank Capacity: 3.6 Liters\nTransmission by Gearbox, with PTO\nManual Recoil Start"
             }
         ]
     },
