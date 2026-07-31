@@ -82,6 +82,7 @@
         "leaflet_image": "/MDT900GA-173.webp",
         "leaflet_image_1": "",
         "leaflet_image_2": "/MDT900GA-173.webp",
+        "buy_now_url": "https://shop.mechnovamachines.in/products/mdt900ga-173-mechnova-6-5-hp-diesel-power-weeder",
         "specifications": "Motor: 247cc, 173F, Diésel\nPotencia: 6.5 HP\nAncho de trabajo: 1050 mm\nProfundidad de trabajo: ≥ 200 mm\nCuchillas: 32 Cuchillas para tierra seca\nCapacidad tanque combustible: 2.5L\nCapacidad aceite motor: 0.75L\nCapacidad aceite caja de cambios: 1.8L\nTipo de transmisión: Engranajes (2 adelante + 1 reversa)\nSistema de arranque: Manual retráctil\nFiltro de aire: Baño de aceite\nTamaño neumático: 400-8 Neumáticos inflables",
         "specificationsEn": "Engine & Power: 6.5 HP Diesel Engine (247cc, Model 173F)\nWorking Width: 1050 mm\nWorking Depth: ≥ 200 mm\nBlades: 32 Dryland Blades\nTransmission Type: Gear Type (2 Forward, 1 Reverse)\nStart Type: Recoil Starter\nAir Filter: Oil Bath Type\nHandle: Rotatable Handle\nTyre Size: 400-8 Inflatable Tyres\nFuel Tank Capacity: 2.5 L\nEngine Oil Capacity: 0.75 L\nGearbox Oil Capacity: 1.8 L",
         "heading": "Power Weeder MDT900GA-173 – 6.5 HP Diesel Engine Machine",
@@ -116,6 +117,7 @@
         "leaflet_image": "/MT900GAS_900-GAS.webp",
         "leaflet_image_1": "",
         "leaflet_image_2": "/MT900GAS_900-GAS.webp",
+        "buy_now_url": "https://shop.mechnovamachines.in/products/mechnova-petrol-power-weeder-mt900gas",
         "specifications": "Motor: 208cc, 4 tiempos, gasolina\nPotencia: 7HP (Cigüeñal robusto 40Cr)\nAncho de trabajo: 1050 mm (4 Grupos)\nProfundidad de trabajo: ≥ 200 mm\nDisco lateral: Incluido\nCapacidad tanque combustible: 3.5L\nCapacidad aceite motor: 0.6L\nCapacidad aceite caja de cambios: 1.8L\nTipo de transmisión: Engranajes (2 adelante + 1 reversa)\nSistema de arranque: Manual retráctil\nFiltro de aire: Baño de aceite\nTamaño neumático: 4.00-8 Neumático inflable",
         "specificationsEn": "Engine & Power: 7 HP (208cc, 4-Stroke Engine, 40Cr Heavy-Duty Crankshaft)\nWorking Width: 1050 mm (4 Groups)\nWorking Depth: ≥ 200 mm\nSide Disc: Included\nTransmission Type: Gear Type (2 Forward, 1 Reverse)\nStart Type: Recoil Starter\nAir Filter: Oil Bath Type\nHandle: Rotatable Handle\nTyre Size: 4.00-8 Inflatable Tyre\nFuel Tank Capacity: 3.5 L\nEngine Oil Capacity: 0.6 L\nGearbox Oil Capacity: 1.8 L",
         "heading": "Power Weeder MT900GAS – 7 HP Heavy-Duty Petrol Machine (Inflatable Tyre)",
@@ -150,6 +152,7 @@
         "leaflet_image": "/MT900GAS1_900-GAS1.webp",
         "leaflet_image_1": "",
         "leaflet_image_2": "/MT900GAS1_900-GAS1.webp",
+        "buy_now_url": "https://shop.mechnovamachines.in/products/mechnova-petrol-power-weeder-mt900gas1",
         "specifications": "Motor: 208cc, 4 tiempos, gasolina\nPotencia: 7HP (Cigüeñal robusto 40Cr)\nAncho de trabajo: 1050 mm (4 Grupos)\nProfundidad de trabajo: 200 mm\nDisco lateral: Incluido\nCapacidad tanque combustible: 3.5L\nCapacidad aceite motor: 0.6L\nCapacidad aceite caja de cambios: 1.8L\nTipo de transmisión: Engranajes (2 adelante + 1 reversa)\nSistema de arranque: Manual retráctil\nFiltro de aire: Baño de aceite\nTamaño neumático: 4.00-8 Neumático sólido",
         "specificationsEn": "Engine & Power: 7 HP (208cc, 4-Stroke Engine, 40Cr Heavy-Duty Crankshaft)\nWorking Width: 1050 mm (4 Groups)\nWorking Depth: 200 mm\nSide Disc: Included\nTransmission Type: Gear Type (2 Forward, 1 Reverse)\nStart Type: Recoil Starter\nAir Filter: Oil Bath Type\nHandle: Rotatable Handle\nTyre Size: 4.00-8 Solid Tyre\nFuel Tank Capacity: 3.5 L\nEngine Oil Capacity: 0.6 L\nGearbox Oil Capacity: 1.8 L",
         "heading": "Power Weeder MT900GAS1 – 7 HP Heavy-Duty Petrol Machine (Solid Tyre)",
@@ -624,8 +627,7 @@
     "meta_description": "Discover the best power weeder in India. Learn about 7 HP petrol tillers, features, benefits, and how to choose the right machine for farming.",
     "models": [],
     "faqs": []
-  }
-  ,
+  },
   "sprayer": {
     "id": "7",
     "name": "",
@@ -650,7 +652,7 @@
         "leaflet_image": "/testing/MT900GA-208CC.jpg",
         "leaflet_image_1": "/MBC37SC.webp",
         "leaflet_image_2": "/new1.webp",
-        "download_pdf_btn":"/pdf/MS20B-4SB.pdf",
+        "download_pdf_btn": "/pdf/MS20B-4SB.pdf",
         "specifications": "",
         "specificationsEn": "Pressure: 1.5 ~ 3.5 MPa\nWater Flow: 3 ~ 8 L/min\nMaximum Pipe Length: 20 L / 25 L\nEngine: GX35\nEngine Type: Air-Cooled 4-Stroke\nDisplacement: 35.8 CC\nEngine Power: 1.0 kW @ 7000 RPM\nNet Torque: 1.4 Nm @ 5000 RPM\nFuel Tank Capacity: 630 ml\nEngine Oil Capacity: 80 ml\nBore × Stroke: 39 × 30 mm\nCompression Ratio: 8:1\nCarburetor: Diaphragm Type\nStarting System: Recoil Starter",
         "heading": "MS20B-4SB Knapsack Sprayer – Compact, Efficient & Reliable Spraying Solution ",
@@ -669,8 +671,7 @@
           "Suitable for pesticides, herbicides, fertilizers, and crop nutrients",
           "Durable construction for regular agricultural use"
         ]
-      }
-      ,
+      },
       {
         "code": "MS25BDI-4SB",
         "name": "",
@@ -701,37 +702,37 @@
           "Ideal for farms, orchards, plantations, and agricultural fields"
         ],
         "faqs": [
-      {
-        "question": "",
-        "questionEn": "Why is this sprayer suitable for large farms?",
-        "answer": "",
-        "answerEn": "This sprayer has a 25 liter tank capacity with a higher flow rate to cover more area on the field with less refilling. Thus it is suitable for a medium to large-sized farm."
-      },
-      {
-        "question": "",
-        "questionEn": "What are the advantages of using a 4-stroke engine?",
-        "answer": "",
-        "answerEn": "The 4-stroke engine produces lower vibration, uses less fuel, less noise, and operates smoother, so that the farmer gets less fatigued."
-      },
-      {
-        "question": "",
-        "questionEn": "Is this machine comfortable to carry over extended periods of operation?",
-        "answer": "",
-        "answerEn": "Yes, it is designed as a knapsack, which spreads the weight of the machine evenly over the shoulders and the back of the operator."
-      },
-      {
-        "question": "",
-        "questionEn": "Is the MS25BDI-4SB usable in orchards and plantations?",
-        "answer": "",
-        "answerEn": "Yes, this sprayer is perfect for orchards and plantations, vegetable farms, or any other crop where spraying is required regularly."
-      },
-      {
-        "question": "",
-        "questionEn": "How is this sprayer maintained?",
-        "answer": "",
-        "answerEn": "Basic maintenance involves cleaning the tank after application, checking the hose, and cleaning of filters regularly. Regular engine servicing would also help retain its functionality."
-      }
-    ]
+          {
+            "question": "",
+            "questionEn": "Why is this sprayer suitable for large farms?",
+            "answer": "",
+            "answerEn": "This sprayer has a 25 liter tank capacity with a higher flow rate to cover more area on the field with less refilling. Thus it is suitable for a medium to large-sized farm."
+          },
+          {
+            "question": "",
+            "questionEn": "What are the advantages of using a 4-stroke engine?",
+            "answer": "",
+            "answerEn": "The 4-stroke engine produces lower vibration, uses less fuel, less noise, and operates smoother, so that the farmer gets less fatigued."
+          },
+          {
+            "question": "",
+            "questionEn": "Is this machine comfortable to carry over extended periods of operation?",
+            "answer": "",
+            "answerEn": "Yes, it is designed as a knapsack, which spreads the weight of the machine evenly over the shoulders and the back of the operator."
+          },
+          {
+            "question": "",
+            "questionEn": "Is the MS25BDI-4SB usable in orchards and plantations?",
+            "answer": "",
+            "answerEn": "Yes, this sprayer is perfect for orchards and plantations, vegetable farms, or any other crop where spraying is required regularly."
+          },
+          {
+            "question": "",
+            "questionEn": "How is this sprayer maintained?",
+            "answer": "",
+            "answerEn": "Basic maintenance involves cleaning the tank after application, checking the hose, and cleaning of filters regularly. Regular engine servicing would also help retain its functionality."
+          }
+        ]
       },
       {
         "code": "MS35-4S",
@@ -743,7 +744,7 @@
         "leaflet_image": "/testing/MT900G-208CC.jpg",
         "leaflet_image_1": "/MS35-4S.webp",
         "leaflet_image_2": "/new1.webp",
-        "download_pdf_btn":"/pdf/MS35-4S.pdf",
+        "download_pdf_btn": "/pdf/MS35-4S.pdf",
         "specifications": "",
         "specificationsEn": "Pressure: 1.5 ~ 2.5 MPA\nWater Flow: 3 ~ 8 L/Min\nMax Pipe Length: 50 M\nEngine: GX35\nEngine Type: Air-Cooled 4-Stroke\nDisplacement:35.8 CC\nEngine Power: 1.0 kW / 7000 RPM\nNet Torque: 1.6 Nm / 5000 RPM\nFuel Tank Capacity: 630 ml\nEngine Oil Capacity: 80 ml\nBore × Stroke: 39 × 30 mm\nCompression Ratio: 7.7:1\nCarburetor: Diaphragm Type\nStarting System: Recoil Starter",
         "heading": "S35-4S Portable  Sprayer - Small size with excellent performance and highly portable",
@@ -763,43 +764,43 @@
           "It is good for common farming and gardening."
         ],
         "faqs": [
-      {
-        "question": "",
-        "questionEn": "What kind of application is the MS35-4S for?",
-        "answer": "",
-        "answerEn": "The MS35-4S is ideal for spraying pesticides, herbicides, fertilizers, and crop nutrients at farms, gardens, orchards, nurseries and plantation areas."
-      },
-      {
-        "question": "",
-        "questionEn": "What are the differences between the MS35-4S and the knapsack sprayer?",
-        "answer": "",
-        "answerEn": "Compared with the backpack type sprayer, the MS35-4S is of portable frame type that allows the sprayer to operate conveniently without the back of the tank and more portable than the knapsack one and it can serve the users who want a ground based spraying device."
-      },
-      {
-        "question": "",
-        "questionEn": "How does the machine move between fields?",
-        "answer": "",
-        "answerEn": "Its simple and lightweight design can make the transporting, storage and field moving convenient."
-      },
-      {
-        "question": "",
-        "questionEn": "Can it be applied in common farming work?",
-        "answer": "",
-        "answerEn": "Sure, MS35-4S is used for the daily farming tasks and has reliable performance during its working life."
-      },
-      {
-        "question": "",
-        "questionEn": "Does it have an equal spraying performance?",
-        "answer": "",
-        "answerEn": "The stable pressure and excellent flowrate are able to supply an equal spraying performance among every crop."
-      },
-      {
-        "question": "",
-        "questionEn": "Can the MS35-4S be used for the small garden and farm?",
-        "answer": "",
-        "answerEn": "MS35-4S is very well fit to small garden and farm, kitchen garden, nursery, orchard and landscape application by its good performance and portability."
-      }
-    ]
+          {
+            "question": "",
+            "questionEn": "What kind of application is the MS35-4S for?",
+            "answer": "",
+            "answerEn": "The MS35-4S is ideal for spraying pesticides, herbicides, fertilizers, and crop nutrients at farms, gardens, orchards, nurseries and plantation areas."
+          },
+          {
+            "question": "",
+            "questionEn": "What are the differences between the MS35-4S and the knapsack sprayer?",
+            "answer": "",
+            "answerEn": "Compared with the backpack type sprayer, the MS35-4S is of portable frame type that allows the sprayer to operate conveniently without the back of the tank and more portable than the knapsack one and it can serve the users who want a ground based spraying device."
+          },
+          {
+            "question": "",
+            "questionEn": "How does the machine move between fields?",
+            "answer": "",
+            "answerEn": "Its simple and lightweight design can make the transporting, storage and field moving convenient."
+          },
+          {
+            "question": "",
+            "questionEn": "Can it be applied in common farming work?",
+            "answer": "",
+            "answerEn": "Sure, MS35-4S is used for the daily farming tasks and has reliable performance during its working life."
+          },
+          {
+            "question": "",
+            "questionEn": "Does it have an equal spraying performance?",
+            "answer": "",
+            "answerEn": "The stable pressure and excellent flowrate are able to supply an equal spraying performance among every crop."
+          },
+          {
+            "question": "",
+            "questionEn": "Can the MS35-4S be used for the small garden and farm?",
+            "answer": "",
+            "answerEn": "MS35-4S is very well fit to small garden and farm, kitchen garden, nursery, orchard and landscape application by its good performance and portability."
+          }
+        ]
       }
     ],
     "faqs": [

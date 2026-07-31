@@ -172,9 +172,14 @@ export default function ModelDetailClient({ slug, model }) {
 
               {/* CTA Buttons */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <Link href="/contact" className='bg-[#0072ce] hover:bg-blue-700 text-white font-medium py-3.5 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-[0_4px_14px_0_rgba(0,114,206,0.39)] hover:shadow-[0_6px_20px_rgba(0,114,206,0.23)] hover:-translate-y-0.5'>
+                <Link 
+                  href={currentModel.buy_now_url || currentModel.shop_url || "https://shop.mechnovamachines.in"} 
+                  target={(currentModel.buy_now_url || currentModel.shop_url || "https://shop.mechnovamachines.in").startsWith('http') ? "_blank" : "_self"}
+                  rel="noopener noreferrer"
+                  className='bg-[#0072ce] hover:bg-blue-700 text-white font-medium py-3.5 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-[0_4px_14px_0_rgba(0,114,206,0.39)] hover:shadow-[0_6px_20px_rgba(0,114,206,0.23)] hover:-translate-y-0.5'
+                >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                   </svg>
                   {t('home.productsPage.requestQuote')}
                 </Link>
