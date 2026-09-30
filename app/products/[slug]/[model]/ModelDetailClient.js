@@ -79,35 +79,46 @@ export default function ModelDetailClient({ slug, model }) {
             </p>
           </div>
 
-          {/* Model Video and Image Section */}
+         {/* Model Video and Image Section */}
           <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100/60 p-4 md:p-8 mb-16 overflow-hidden">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              {/* LEFT — YOUTUBE VIDEO */}
-              <div className="w-full">
-                <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-100">
-                  <iframe
-                    src="https://www.youtube.com/embed/dR8Go5A0gtI?si=65WWiwTbxRnWtrUn&rel=0&modestbranding=1"
-                    title="Product Video"
-                    className="absolute top-0 left-0 w-full h-full"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
+            <div
+              className={`grid grid-cols-1 ${
+                currentModel.video ? "lg:grid-cols-2" : ""
+              } gap-8 items-center`}
+            >
+
+              {/* LEFT — YOUTUBE VIDEO — ONLY IF AVAILABLE */}
+              {currentModel.video && (
+                <div className="w-full">
+                  <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-100">
+                    <iframe
+                      src={currentModel.video}
+                      title={`${modelName} Product Video`}
+                      className="absolute top-0 left-0 w-full h-full"
+                      loading="lazy"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* RIGHT — IMAGE */}
               <div className="flex justify-center items-center p-4">
                 <div className="relative group">
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl -z-10"></div>
+
                   <img
                     src={currentModel.image}
                     alt={modelName}
                     className="max-h-[600px] w-auto object-contain transition-transform duration-700 ease-out group-hover:scale-[1.02] drop-shadow-sm"
-                    onError={(e) => (e.target.src = '/about.webp')}
+                    onError={(e) => {
+                      e.currentTarget.src = "/about.webp";
+                    }}
                   />
                 </div>
               </div>
+
             </div>
           </div>
 
@@ -125,17 +136,17 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
 
           {/* Main Product Content Image (Added Section) */}
-          {!currentModel.download_pdf_btn && currentModel.leaflet_image_1 && (
-          <div className="flex justify-center items-center mb-20">
-            <div className="w-full max-w-5xl bg-white rounded-2xl shadow-[0_15px_50px_rgba(0,0,0,0.08)] border border-gray-100/60 overflow-hidden group">
+          {/* {!currentModel.download_pdf_btn && currentModel.leaflet_image_1 && (
+          <div className="flex justify-center items-center mb-20"> */}
+            {/* <div className="w-full max-w-5xl bg-white rounded-2xl shadow-[0_15px_50px_rgba(0,0,0,0.08)] border border-gray-100/60 overflow-hidden group">
               <img
                 src={currentModel.leaflet_image_1}
                 alt="Product Specifications and Features"
                 className="w-full h-auto transition-transform duration-700 ease-out group-hover:scale-[1.01]"
               />
-            </div>
-          </div>
-          )}
+            </div> */}
+          {/* </div>
+          )} */}
           {/* Download Catalog Button */}
               {currentModel.download_pdf_btn && (
                 <div className="flex justify-center mb-16">
