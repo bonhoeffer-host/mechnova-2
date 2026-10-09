@@ -17,10 +17,10 @@ function WarrantyPage() {
     const formData = new FormData(e.target);
 
     try {
-      const res = await fetch("https://blog.mechnovamachines.in/mechnova_in/warranty_save.php", {
-        method: "POST",
-        body: formData,
-      });
+      const res = await fetch("/api/warranty", {
+  method: "POST",
+  body: formData,
+});
 
         const text = await res.text(); // read raw response
 
@@ -218,7 +218,7 @@ function WarrantyPage() {
 
               {/* Terms Checkbox */}
               <div className="flex items-start gap-3">
-                <input type="checkbox" required className="mt-1" />
+                <input type="checkbox" required className="mt-1" name="terms_accepted" />
                 <p className="text-sm text-gray-700">
                   I agree to the Terms and Conditions *
                 </p>
