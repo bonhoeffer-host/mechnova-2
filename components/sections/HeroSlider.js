@@ -7,7 +7,7 @@ const EnglishImages = [
   "/mechnova/banner/english-website-banner1.webp",
   "/mechnova/banner/english-website-banner2.webp",
   "/mechnova/banner/english-website-banner3.webp",
-  "/mechnova/banner/english-website-banner1.webp",
+  "/mechnova/banner/english-website-banner4.webp",
 ];
 
 const HindiImages = [
