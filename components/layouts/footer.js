@@ -187,7 +187,7 @@ function Footer() {
   {/* <div className="absolute -right-10 top-0 h-full w-[24%] skew-x-[-20deg] border-l-[3px] border-[#36B5F5]/60 bg-[#0072ce]/10" /> */}
 
   {/* Banner Content */}
-  <div className="relative z-10 mx-auto flex min-h-[340px] max-w-[1450px] items-center px-5 py-12 sm:px-10 md:min-h-[370px] lg:px-16">
+  <div className="relative z-10 mx-auto flex min-h-[340px] max-w-full items-center px-5 py-12 sm:px-10 md:min-h-[370px] lg:px-16">
 
     <div className="max-w-[850px] border-l-[7px] border-[#36B5F5] pl-6 sm:pl-10">
 
@@ -240,7 +240,7 @@ function Footer() {
         <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-[#0072ce]/10 blur-[120px]" />
         <div className="pointer-events-none absolute -right-40 bottom-0 h-96 w-96 rounded-full bg-[#168FE5]/10 blur-[120px]" />
 
-        <div className="relative mx-auto max-w-[1450px] px-5 py-14 sm:px-10 lg:px-16 lg:py-16">
+        <div className="relative mx-auto max-w-full px-5 py-14 sm:px-10 lg:px-16 lg:py-16">
 
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.85fr_0.9fr_1.15fr] lg:gap-0">
 
